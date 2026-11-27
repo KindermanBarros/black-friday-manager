@@ -1,2 +1,17 @@
 # Black Friday Manager
-Dashboard estático. Importe este repositório na Vercel com preset Other, sem build e diretório de saída raiz. Cada coletor mantém seu próprio JSON em data/collector-00.json ou data/collector-30.json. Acrescente a runs um objeto {at: ISO 8601, offers: [{store, price (BRL numérico), games: [], url (HTTPS), inStock: true, payment, coupon}]}. Não invente ofertas. Preserve o histórico. Compare preços à vista equivalentes. Dados públicos: não inclua informações pessoais ou credenciais.
+
+React + TypeScript + Vite + Tailwind CSS + Recharts + Lucide.
+
+## Desenvolvimento
+
+```sh
+npm install
+npm run dev
+npm run build
+```
+
+## Vercel
+Importe o repositório e utilize Vite, npm run build, dist. O build copia os arquivos de dados para dist/data. Cada commit dispara uma publicação quando a integração Git está ativa.
+
+## Coletores
+Leia AGENTS.md. Os arquivos data/collector-00.json e data/collector-30.json permanecem na raiz para preservar o contrato das automações. Cada execução adiciona um snapshot com ofertas verificadas. Não inclua segredos nem informações pessoais. A interface recarrega os dados a cada minuto; novos dados chegam após a publicação da Vercel.
