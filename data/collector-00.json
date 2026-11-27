@@ -1479,6 +1479,34 @@
         "changedPrices": 0,
         "unchangedPrices": 0
       }
+    },
+    {
+      "at": "2026-11-27T22:01:05.460Z",
+      "offers": [],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "Amazon Brasil",
+          "Shopee",
+          "Mercado Livre",
+          "KaBuM!",
+          "Magalu",
+          "Casas Bahia",
+          "Ponto",
+          "Carrefour",
+          "Fast Shop",
+          "Nova Era Games"
+        ],
+        "blockers": [
+          "Cinco URLs conhecidas da Nova Era Games inacessíveis na consulta direta. Catálogo KaBuM atualizado indica R$ 4199 e 57 unidades, mas página individual indexada há dois meses diverge (R$ 4299). Outros resultados são agregados ou capturas antigas, sem confirmação contemporânea individual de preço, estoque e vendedor. Nenhum cupom validado."
+        ],
+        "newLinks": 0,
+        "changedPrices": 0,
+        "unchangedPrices": 0
+      }
     }
   ]
 }
