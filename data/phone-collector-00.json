@@ -16,6 +16,24 @@
       "blockers": [
         "S24 Ultra e Edge 50 Ultra indisponíveis nas páginas abertas; S25 com acesso 403; demais resultados sem confirmação; pesquisa incompleta"
       ]
+    },
+    {
+      "at": "2026-11-27T08:34:16.368Z",
+      "offers": [],
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "Magalu",
+        "KaBuM!",
+        "Mercado Livre",
+        "RedMagic"
+      ],
+      "blockers": [
+        "Pesquisa parcial compartilhada entre coletores; cobertura mínima não atingida.",
+        "Não foi possível confirmar preço, estoque e todos os requisitos simultaneamente."
+      ]
     }
   ]
 }
