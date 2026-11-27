@@ -387,6 +387,83 @@
         "Demais resultados acima do teto ou sem confirmação; pesquisa parcial, nem todos os históricos revalidados",
         "Nenhum cupom adicional validado"
       ]
+    },
+    {
+      "at": "2026-11-27T13:31:53.635Z",
+      "offers": [
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "eligible": false,
+          "store": "Magalu",
+          "title": "BluePC Ludic PGBP-1217LUD",
+          "price": 5787.3,
+          "url": "https://www.magazineluiza.com.br/pc-gamer-ludic-by-bluepc-amd-ryzen-7-5700x-geforce-rtx-5060-8gb-gddr7-16gb-ddr4-ssd-512gb-m-2-nvme-fonte-600w-80-plus-pgbp-1217lud/p/hhac1786hf/in/pcgm",
+          "ssdGB": 512,
+          "psu": "600 W 80 Plus",
+          "seller": "2Eletro",
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "reason": "Envio montado e estoque não confirmados nesta consulta",
+          "payment": "Pix 20%",
+          "installments": "10x R$ 723,41 sem juros"
+        },
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "eligible": false,
+          "store": "Pichau",
+          "title": "PC Gamer Pichau 65947",
+          "price": 5970.89,
+          "url": "https://www.pichau.com.br/pc-gamer-pichau-amd-ryzen-7-5700x-geforce-rtx-5060-8gb-16gb-ddr4-ssd-480gb-65947",
+          "ssdGB": 480,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "reason": "97 disponíveis e produto esgotado simultaneamente",
+          "payment": "Pix 15%",
+          "installments": "12x R$ 585,38 sem juros"
+        },
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "eligible": false,
+          "store": "Xtreme Informática",
+          "title": "XPC-000044",
+          "price": 7424.91,
+          "url": "https://www.xtremeinfo.com.br/product/pc-gamer-ryzen-7-5700x-16gb-500gb-nvme-rtx-5060-8gb/",
+          "ssdGB": 500,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "reason": "Acima do teto; estoque por consulta",
+          "payment": "Pix 10%",
+          "installments": "10x R$ 824,99 sem juros"
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "Pichau",
+        "TerabyteShop",
+        "KaBuM!",
+        "Amazon Brasil",
+        "Mercado Livre",
+        "Shopee",
+        "Magalu",
+        "Xtreme Informática"
+      ],
+      "blockers": [
+        "Busca parcial; resultados indexados de marketplaces sem validação individual suficiente",
+        "Estoque contraditório e montagem não confirmada nos candidatos abaixo do teto",
+        "Nem todos os links históricos revalidados"
+      ]
     }
   ]
 }
