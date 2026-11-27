@@ -1,1 +1,49 @@
-{"runs":[]}
+{
+  "runs": [
+    {
+      "at": "2026-11-27T08:12:57.950Z",
+      "offers": [
+        {
+          "store": "Magalu",
+          "price": 3905.07,
+          "games": [
+            "EA Sports FC 27"
+          ],
+          "url": "https://www.magazineluiza.com.br/nintendo-switch-2-2026-256gb-2-controles-joy-con-2-preto-com-ea-sports-fc-27/p/242609300/ga/cns2/",
+          "inStock": true,
+          "payment": "Pix",
+          "coupon": "",
+          "seller": "Magalu",
+          "shipping": null,
+          "installments": "10x R$ 419,90 sem juros"
+        },
+        {
+          "store": "KaBuM!",
+          "price": 3999,
+          "games": [],
+          "url": "https://www.kabum.com.br/produto/777177/console-nintendo-switch-2-256gb-preto-azul-e-vermelho",
+          "inStock": true,
+          "payment": "Pix",
+          "coupon": "",
+          "seller": "KaBuM!",
+          "shipping": null,
+          "installments": "10x R$ 399,90 sem juros"
+        },
+        {
+          "store": "KaBuM!",
+          "price": 4099,
+          "games": [
+            "EA Sports FC 27"
+          ],
+          "url": "https://www.kabum.com.br/produto/1076479/bundle-nintendo-switch-2-abc",
+          "inStock": true,
+          "payment": "Pix",
+          "coupon": "",
+          "seller": "KaBuM!",
+          "shipping": null,
+          "installments": "10x R$ 409,90 sem juros"
+        }
+      ]
+    }
+  ]
+}
