@@ -192,6 +192,94 @@
         "Resultados agregados Xiaomi 15 e 15T Pro abaixo do teto sem validação individual de estoque, vendedor e custos obrigatórios.",
         "Pesquisa parcial; demais resultados acima do teto, antigos ou fora da categoria."
       ]
+    },
+    {
+      "at": "2026-11-27T10:59:16.643Z",
+      "offers": [
+        {
+          "store": "Vivo",
+          "title": "Motorola Edge 50 Ultra 512GB Coral",
+          "brand": "Motorola",
+          "model": "Edge 50 Ultra",
+          "price": 3649,
+          "url": "https://store.vivo.com.br/smartphone-motorola-edge-50-ultra-5g-512gb-coral-12gb-ram-12gb-ram-boost-c%C3%A2m.-traseira-50mp/p/TGMO461U",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Disponibilidade regional depende de consulta CEP; preço anunciado sem confirmação de condição comercial final.",
+          "ramGB": 12,
+          "storageGB": 512,
+          "chipset": "Snapdragon 8s Gen 3",
+          "seller": "Vivo",
+          "installments": "15x R$243,26 sem juros"
+        },
+        {
+          "store": "Vivo",
+          "title": "Motorola Edge 50 Ultra 512GB Marrom",
+          "brand": "Motorola",
+          "model": "Edge 50 Ultra",
+          "price": 3649,
+          "url": "https://store.vivo.com.br/smartphone-motorola-edge-50-ultra-5g-marrom-512gb-24gb-12gb-ram-12gb-ram-boost-50mp-ultra-pixel-ai-c%C3%A2mera-ip68-nfc/p/TGMO461M",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Estoque regional e condições finais não confirmados.",
+          "ramGB": 12,
+          "storageGB": 512,
+          "chipset": "Snapdragon 8s Gen 3",
+          "seller": "Vivo",
+          "installments": "15x R$243,26 sem juros"
+        },
+        {
+          "store": "iLoja",
+          "title": "REDMAGIC 9 Pro 5G 512GB",
+          "brand": "REDMAGIC",
+          "model": "9 Pro",
+          "price": 4638.42,
+          "url": "https://ilojabr.com.br/products/redmagic-9-pro-5g",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Acima do teto; estoque e condição novo não confirmados integralmente.",
+          "ramGB": 16,
+          "storageGB": 512,
+          "payment": "Pix",
+          "seller": "iLoja",
+          "coupon": "BLACK50: R$50 acima de R$1000; validade e cumulatividade não confirmadas; preço hipotético R$4588.42"
+        },
+        {
+          "store": "iLoja",
+          "title": "REDMAGIC 11 Pro 5G 256GB",
+          "brand": "REDMAGIC",
+          "model": "11 Pro",
+          "price": 5252.35,
+          "url": "https://ilojabr.com.br/products/redmagic-11-pro-5g",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Acima do teto; estoque e condição novo não confirmados integralmente.",
+          "ramGB": 12,
+          "storageGB": 256,
+          "payment": "Pix",
+          "seller": "iLoja",
+          "coupon": "BLACK50: R$50 acima de R$1000; validade e cumulatividade não confirmadas; preço hipotético R$5202.35"
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "Vivo",
+        "Motorola",
+        "iLoja",
+        "Magalu",
+        "KaBuM!",
+        "Amazon Brasil",
+        "Shopee",
+        "Mercado Livre"
+      ],
+      "blockers": [
+        "Vivo exige confirmação regional; resultados agregados Shopee não permitem confirmar condição e vendedor.",
+        "Xiaomi 15T Pro na página individual Magalu indisponível; demais anúncios sem preço atual verificável ou acima do teto.",
+        "Pesquisa parcial; frete para Manaus e cupons não validados no checkout."
+      ]
     }
   ]
 }
