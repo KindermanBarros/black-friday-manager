@@ -1258,6 +1258,80 @@
         "changedPrices": 0,
         "unchangedPrices": 0
       }
+    },
+    {
+      "at": "2026-11-27T22:57:33.750Z",
+      "offers": [
+        {
+          "store": "REDMAGIC Brasil",
+          "title": "REDMAGIC 11 Air Phantom 12GB+256GB",
+          "brand": "REDMAGIC",
+          "model": "11 Air",
+          "price": 3799,
+          "url": "https://br.redmagic.gg/products/redmagic-11-air",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Esgotado na página oficial; impostos finais não confirmados.",
+          "ramGB": 12,
+          "storageGB": 256,
+          "chipset": "Snapdragon 8 Elite"
+        },
+        {
+          "store": "iLoja",
+          "title": "Xiaomi POCO F8 Pro 5G Prata 256GB",
+          "brand": "Xiaomi",
+          "model": "POCO F8 Pro",
+          "price": 3890.17,
+          "url": "https://ilojabr.com.br/products/xiaomi-poco-f8-pro-5g",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Indisponível na página individual.",
+          "ramGB": 12,
+          "storageGB": 256,
+          "payment": "Pix",
+          "warranty": "3 meses",
+          "installments": "18x R$296,06 sem juros",
+          "coupon": "BLACK50: R$50 acima de R$1000; validade e cumulatividade não confirmadas; hipotético R$3840,17"
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "REDMAGIC Brasil",
+        "iLoja",
+        "Shopee (agregado)",
+        "Amazon Brasil (consulta)",
+        "Mercado Livre (consulta)",
+        "KaBuM! (consulta)",
+        "Magalu (consulta)"
+      ],
+      "blockers": [
+        "REDMAGIC 11 Air e POCO F8 Pro 256GB explicitamente indisponíveis nas páginas individuais.",
+        "Consultas agregadas não retornaram outras ofertas elegíveis verificáveis; cobertura parcial.",
+        "Frete para Manaus e cumulatividade de cupons não confirmados."
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "REDMAGIC Brasil",
+          "iLoja",
+          "Shopee (agregado)",
+          "Amazon Brasil (consulta)",
+          "Mercado Livre (consulta)",
+          "KaBuM! (consulta)",
+          "Magalu (consulta)"
+        ],
+        "blockers": [
+          "REDMAGIC 11 Air e POCO F8 Pro 256GB explicitamente indisponíveis nas páginas individuais.",
+          "Consultas agregadas não retornaram outras ofertas elegíveis verificáveis; cobertura parcial.",
+          "Frete para Manaus e cumulatividade de cupons não confirmados."
+        ]
+      }
     }
   ]
 }
