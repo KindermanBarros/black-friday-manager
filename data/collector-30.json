@@ -79,6 +79,46 @@
       "blockers": [
         "Coleta manual simultânea compartilha verificações; cobertura insuficiente"
       ]
+    },
+    {
+      "at": "2026-11-27T08:34:16.368Z",
+      "offers": [
+        {
+          "store": "Nova Era Games",
+          "price": 3699.9,
+          "games": [],
+          "url": "https://www.lojanovaera.com/nintendo-switch-2-modelo-importado",
+          "inStock": true,
+          "payment": "Pix",
+          "seller": "Nova Era Games",
+          "shipping": null
+        },
+        {
+          "store": "Nova Era Games",
+          "price": 3899.9,
+          "games": [
+            "Mario Kart World"
+          ],
+          "url": "https://www.lojanovaera.com/nintendo-switch-2-com-mario-kart-world-modelo-nacional",
+          "inStock": true,
+          "payment": "Pix",
+          "seller": "Nova Era Games",
+          "shipping": null
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 2,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "Nova Era Games",
+        "KaBuM!",
+        "Mercado Livre"
+      ],
+      "blockers": [
+        "Pesquisa parcial compartilhada entre coletores; cobertura mínima não atingida.",
+        "Demais anúncios sem validação individual suficiente."
+      ]
     }
   ]
 }
