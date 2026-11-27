@@ -1,1 +1,6 @@
-{"framework":null,"cleanUrls":true}
+{
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true
+}
