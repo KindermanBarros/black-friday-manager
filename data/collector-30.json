@@ -1,1 +1,84 @@
-{"runs":[]}
+{
+  "runs": [
+    {
+      "at": "2026-11-27T08:32:29.453Z",
+      "offers": [
+        {
+          "store": "KaBuM!",
+          "price": 3999,
+          "games": [],
+          "url": "https://www.kabum.com.br/produto/777177/console-nintendo-switch-2-256gb-preto-azul-e-vermelho",
+          "inStock": true,
+          "payment": "Pix",
+          "coupon": "",
+          "seller": "KaBuM!",
+          "shipping": null
+        },
+        {
+          "store": "KaBuM!",
+          "price": 4099,
+          "games": [
+            "EA Sports FC 27"
+          ],
+          "url": "https://www.kabum.com.br/produto/1076479/bundle-nintendo-switch-2-abc",
+          "inStock": true,
+          "payment": "Pix",
+          "coupon": "JOGAFIFINHA — anunciado, desconto adicional não confirmado",
+          "seller": "KaBuM!",
+          "shipping": null
+        },
+        {
+          "store": "Nova Era Games",
+          "price": 3699.9,
+          "games": [],
+          "url": "https://www.lojanovaera.com/nintendo-switch-2-modelo-importado",
+          "inStock": true,
+          "payment": "Pix",
+          "coupon": "",
+          "seller": "Nova Era Games",
+          "shipping": null
+        },
+        {
+          "store": "Nova Era Games",
+          "price": 3799.9,
+          "games": [],
+          "url": "https://www.lojanovaera.com/nintendo-switch-2-256gb-original-nintendo-novo-lacrado",
+          "inStock": true,
+          "payment": "Pix",
+          "coupon": "",
+          "seller": "Nova Era Games",
+          "shipping": null
+        },
+        {
+          "store": "Nova Era Games",
+          "price": 3899.9,
+          "games": [
+            "Mario Kart World"
+          ],
+          "url": "https://www.lojanovaera.com/nintendo-switch-2-com-mario-kart-world-modelo-nacional",
+          "inStock": true,
+          "payment": "Pix",
+          "coupon": "",
+          "seller": "Nova Era Games",
+          "shipping": null
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 5,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "KaBuM!",
+        "Nova Era Games",
+        "Mercado Livre",
+        "Carrefour",
+        "Amazon Brasil",
+        "Shopee",
+        "Magalu"
+      ],
+      "blockers": [
+        "Coleta manual simultânea compartilha verificações; cobertura insuficiente"
+      ]
+    }
+  ]
+}
