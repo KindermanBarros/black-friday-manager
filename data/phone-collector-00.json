@@ -493,6 +493,48 @@
         "Estoque regional Vivo não confirmado; Magalu indisponível; RedMagic Pro acima do teto.",
         "Resultados agregados sem confirmação individual; pesquisa parcial, frete regional e cupons não testados."
       ]
+    },
+    {
+      "at": "2026-11-27T09:35:00-04:00",
+      "offers": [],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "Amazon Brasil",
+          "Carrefour",
+          "Casas Bahia",
+          "Fast Shop",
+          "KaBuM!",
+          "Magalu",
+          "Mercado Livre",
+          "Motorola",
+          "Ponto",
+          "Samsung",
+          "Shopee"
+        ],
+        "blockers": [
+          "Amazon Brasil: search HTTPError",
+          "Carrefour: search HTTPError",
+          "Casas Bahia: search HTTPError",
+          "Fast Shop: search HTTPError",
+          "KaBuM!: no direct product links discovered",
+          "KaBuM!: no unique product structured data",
+          "Magalu: ValueError",
+          "Magalu: search HTTPError",
+          "Mercado Livre: no direct product links discovered",
+          "Motorola: aggregate price does not identify seller",
+          "Motorola: no unique product structured data",
+          "Ponto: search HTTPError",
+          "Samsung: no unique product structured data",
+          "Shopee: no direct product links discovered"
+        ],
+        "newLinks": 0,
+        "changedPrices": 0,
+        "unchangedPrices": 0
+      }
     }
   ]
 }
