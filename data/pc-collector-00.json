@@ -91,6 +91,112 @@
         "Pesquisa parcial compartilhada entre coletores; cobertura mínima não atingida.",
         "Não foi possível confirmar preço, estoque e todos os requisitos simultaneamente."
       ]
+    },
+    {
+      "at": "2026-11-27T09:03:47.871Z",
+      "offers": [
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "eligible": false,
+          "shipping": null,
+          "store": "Pichau",
+          "title": "PC Gamer Pichau",
+          "price": 5970.89,
+          "url": "https://www.pichau.com.br/pc-gamer-pichau-amd-ryzen-7-5700x-geforce-rtx-5060-8gb-16gb-ddr4-ssd-480gb-65947",
+          "ssdGB": 480,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "reason": "Página consultada hoje indica 99 disponíveis e esgotado simultaneamente",
+          "payment": "Pix",
+          "seller": "Pichau",
+          "installments": "12x R$ 585,38 sem juros"
+        },
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "eligible": false,
+          "shipping": null,
+          "store": "Pichau",
+          "title": "PC Gamer Afrodite",
+          "price": 6199.99,
+          "url": "https://www.pichau.com.br/pc-pichau-gamer-afrodite-amd-ryzen-7-5700x-geforce-rtx-5060-8gb-16gb-ddr4-ssd-m-2-1tb-59535",
+          "ssdGB": 1000,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "reason": "Acima do teto e estoque não confirmado",
+          "payment": "Pix",
+          "seller": "Pichau",
+          "installments": "12x R$ 607,84 sem juros"
+        },
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "eligible": false,
+          "shipping": null,
+          "store": "TerabyteShop",
+          "title": "PC Gamer Captain",
+          "price": 7499.99,
+          "url": "https://www.terabyteshop.com.br/produto/39342/pc-gamer-captain-amd-ryzen-7-5700x-nvidia-geforce-rtx-5060-16gb-ddr4-2x8gb-ssd-256gb-nvme",
+          "ssdGB": 256,
+          "inStock": true,
+          "stockStatus": "confirmed",
+          "reason": "Acima do teto",
+          "payment": "Pix ou boleto",
+          "seller": "TerabyteShop",
+          "installments": "12x R$ 735,29 sem juros",
+          "motherboard": "ASRock B550M Phantom Gaming 4",
+          "psu": "600 W",
+          "warranty": "12 meses"
+        },
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "eligible": false,
+          "shipping": null,
+          "store": "Magalu",
+          "title": "BluePC Ludic PGBP-1217LUD",
+          "price": 5787.3,
+          "url": "https://www.magazineluiza.com.br/pc-gamer-ludic-by-bluepc-amd-ryzen-7-5700x-geforce-rtx-5060-8gb-gddr7-16gb-ddr4-ssd-512gb-m-2-nvme-fonte-600w-80-plus-pgbp-1217lud/p/hhac1786hf/in/pcgm",
+          "ssdGB": 512,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "reason": "Preço de busca de hoje; outra busca mostra R$ 6149 e página individual indexada R$ 7229; preço e estoque atuais não confirmados",
+          "payment": "Pix anunciado",
+          "seller": "2Eletro",
+          "psu": "600 W 80 Plus Bronze",
+          "motherboard": "Gigabyte A520M K V2",
+          "warranty": "6 meses"
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "Pichau",
+        "TerabyteShop",
+        "KaBuM!",
+        "Amazon Brasil",
+        "Mercado Livre",
+        "Shopee",
+        "Magalu",
+        "Xtreme Informática"
+      ],
+      "blockers": [
+        "KaBuM! HTTP 403 na página individual; resultado comercial de R$ 5999 sem confirmação de SKU/preço.",
+        "Magalu apresenta preços divergentes entre buscas e página individual.",
+        "Pichau apresenta estoque contraditório no modelo abaixo do teto.",
+        "Amazon, Mercado Livre e Shopee sem oferta elegível confirmada; resultados acima do teto ou sem página individual validada."
+      ]
     }
   ]
 }
