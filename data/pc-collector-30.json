@@ -195,6 +195,69 @@
         "Amazon sem preço validado; consultas Shopee e Magalu sem resultados elegíveis confirmados.",
         "Cobertura parcial; nenhum cupom adicional validado."
       ]
+    },
+    {
+      "at": "2026-11-27T11:29:36.333Z",
+      "offers": [
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "eligible": false,
+          "store": "Pichau",
+          "title": "PC Gamer Pichau 65947",
+          "price": 5970.89,
+          "url": "https://www.pichau.com.br/pc-gamer-pichau-amd-ryzen-7-5700x-geforce-rtx-5060-8gb-16gb-ddr4-ssd-480gb-65947",
+          "ssdGB": 480,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "reason": "Página exibe 98 disponíveis e produto esgotado simultaneamente",
+          "payment": "Pix 15% desconto",
+          "installments": "12x R$ 585,38 sem juros",
+          "warranty": "Por peça, prazo na nota fiscal",
+          "seller": "Pichau"
+        },
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "eligible": false,
+          "store": "TerabyteShop",
+          "title": "PC Gamer Captain 39342",
+          "price": 7499.99,
+          "url": "https://www.terabyteshop.com.br/produto/39342/pc-gamer-captain-amd-ryzen-7-5700x-nvidia-geforce-rtx-5060-16gb-ddr4-2x8gb-ssd-256gb-nvme",
+          "ssdGB": 256,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "reason": "Acima do teto; estoque atual não confirmado",
+          "payment": "Pix ou boleto 15% desconto",
+          "installments": "12x R$ 735,29 sem juros",
+          "seller": "TerabyteShop"
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "Pichau",
+        "TerabyteShop",
+        "KaBuM!",
+        "Amazon Brasil",
+        "Mercado Livre",
+        "Shopee",
+        "Magalu",
+        "Shopinfo",
+        "Infoturbo"
+      ],
+      "blockers": [
+        "Pichau abaixo do teto com estoque contraditório.",
+        "Terabyte preço atual superior ao indexado e ao teto.",
+        "Busca ampliada retornou preços acima do teto ou sem validação individual.",
+        "Cobertura parcial; nem todos os links históricos foram revalidados. Nenhum cupom adicional confirmado."
+      ]
     }
   ]
 }
