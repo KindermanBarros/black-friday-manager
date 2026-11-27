@@ -881,6 +881,76 @@
           "Pesquisa parcial; Shopee e demais lojas não tiveram verificação individual nesta execução. Resultados agregados não confirmam estoque ou condição. Páginas iLoja indexadas ontem; checkout, impostos e disponibilidade regional não verificados."
         ]
       }
+    },
+    {
+      "at": "2026-11-27T18:01:57.330Z",
+      "offers": [
+        {
+          "store": "REDMAGIC Brasil",
+          "title": "REDMAGIC 11 Air Phantom",
+          "brand": "REDMAGIC",
+          "model": "11 Air",
+          "price": 3799,
+          "url": "https://br.redmagic.gg/products/redmagic-11-air",
+          "ramGB": 12,
+          "storageGB": 256,
+          "chipset": "Snapdragon 8 Elite",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Página oficial informa esgotado; indexação de dois meses, estoque atual não confirmado."
+        },
+        {
+          "store": "iLoja",
+          "title": "Xiaomi POCO F8 Pro 5G Prata",
+          "brand": "Xiaomi",
+          "model": "POCO F8 Pro",
+          "price": 3890.17,
+          "url": "https://ilojabr.com.br/products/xiaomi-poco-f8-pro-5g",
+          "ramGB": 12,
+          "storageGB": 256,
+          "chipset": "Snapdragon 8 Elite",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Página apresenta indicação contraditória de disponibilidade e campo condição vazio.",
+          "payment": "Pix",
+          "coupon": "BLACK50: R$50 a partir de R$1000; validade e cumulatividade não confirmadas",
+          "shipping": "Frete grátis anunciado; prazo regional não confirmado",
+          "warranty": "3 meses",
+          "installments": "18x R$296,06"
+        },
+        {
+          "store": "Mercado Livre",
+          "title": "Xiaomi 15T Pro Preto",
+          "brand": "Xiaomi",
+          "model": "15T Pro",
+          "price": 5290,
+          "url": "https://mercadolivre.com.br/smartphone-xiaomi-15t-pro-5g-1212gb-ram-512gb-preto/p/MLB57841738",
+          "ramGB": 12,
+          "storageGB": 512,
+          "chipset": "Dimensity 9400+",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Acima do teto; vendedor e estoque regional não confirmados."
+        }
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "REDMAGIC Brasil",
+          "iLoja",
+          "Magalu",
+          "Mercado Livre",
+          "KaBuM!",
+          "Amazon Brasil",
+          "Shopee"
+        ],
+        "blockers": [
+          "Consultas Amazon e Shopee sem resultados individuais úteis; resultados de outras lojas acima do teto ou com condição/estoque incertos. Frete regional e checkout não verificados."
+        ]
+      }
     }
   ]
 }
