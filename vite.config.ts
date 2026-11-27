@@ -1,3 +1,3 @@
 import {defineConfig} from 'vite'; import react from '@vitejs/plugin-react'; import {readFileSync,mkdirSync,copyFileSync} from 'node:fs'; import {resolve} from 'node:path';
-const files=['collector-00.json','collector-30.json','pc-collector-00.json','pc-collector-30.json'];
+const files=['collector-00.json','collector-30.json','pc-collector-00.json','pc-collector-30.json','phone-collector-00.json'];
 export default defineConfig({plugins:[react(),{name:'collector-data',configureServer(server){server.middlewares.use('/data',(req,res,next)=>{const path=req.url?.split('?')[0]?.slice(1);if(!path||!files.includes(path))return next();try{res.setHeader('Content-Type','application/json');res.end(readFileSync(resolve('data',path)));}catch{res.statusCode=404;res.end();}})},closeBundle(){mkdirSync('dist/data',{recursive:true});for(const file of files)copyFileSync('data/'+file,'dist/data/'+file);}}]});
