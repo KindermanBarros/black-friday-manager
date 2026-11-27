@@ -338,6 +338,80 @@
         "Magalu: preço atual não confirmado na consulta.",
         "Demais candidatos acima do teto ou estoque incerto."
       ]
+    },
+    {
+      "at": "2026-11-27T10:57:31.888Z",
+      "offers": [
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "eligible": false,
+          "store": "Pichau",
+          "title": "PC Gamer Pichau 65947",
+          "price": 5970.89,
+          "url": "https://www.pichau.com.br/pc-gamer-pichau-amd-ryzen-7-5700x-geforce-rtx-5060-8gb-16gb-ddr4-ssd-480gb-65947",
+          "ssdGB": 480,
+          "reason": "Página mostra 98 disponíveis e esgotado simultaneamente",
+          "payment": "Pix 15% desconto",
+          "installments": "12x R$ 585,38 sem juros"
+        },
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "eligible": false,
+          "store": "Pichau",
+          "title": "PC Gamer Afrodite",
+          "price": 6199.99,
+          "url": "https://www.pichau.com.br/pc-pichau-gamer-afrodite-amd-ryzen-7-5700x-geforce-rtx-5060-8gb-16gb-ddr4-ssd-m-2-1tb-59535",
+          "ssdGB": 1000,
+          "reason": "Acima do teto; estoque não confirmado",
+          "payment": "Pix 15% desconto",
+          "installments": "12x R$ 607,84 sem juros"
+        },
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "eligible": false,
+          "store": "TerabyteShop",
+          "title": "PC Gamer Captain",
+          "price": 7499.99,
+          "url": "https://www.terabyteshop.com.br/produto/39342/pc-gamer-captain-amd-ryzen-7-5700x-nvidia-geforce-rtx-5060-16gb-ddr4-2x8gb-ssd-256gb-nvme",
+          "ssdGB": 256,
+          "reason": "Acima do teto; estoque não revalidado nesta consulta",
+          "payment": "Pix ou boleto 15% desconto",
+          "installments": "12x R$ 735,29 sem juros"
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "Pichau",
+        "TerabyteShop",
+        "KaBuM!",
+        "Amazon Brasil",
+        "Mercado Livre",
+        "Shopee",
+        "Magalu"
+      ],
+      "blockers": [
+        "Estoque contraditório no único candidato abaixo do teto revalidado.",
+        "Resultados adicionais acima do teto ou sem validação individual atual.",
+        "Pesquisa parcial; nem todos os links históricos foram revalidados. Nenhum cupom adicional confirmado."
+      ]
     }
   ]
 }
