@@ -344,6 +344,63 @@
         "Pesquisa parcial compartilhada entre coletores; cobertura mínima não atingida.",
         "Demais anúncios sem validação individual suficiente."
       ]
+    },
+    {
+      "at": "2026-11-27T09:00:07.576Z",
+      "offers": [
+        {
+          "store": "Nova Era Games",
+          "price": 3699.9,
+          "games": [],
+          "url": "https://lojanovaera.com/nintendo-switch-2-modelo-importado",
+          "inStock": true,
+          "payment": "Pix",
+          "seller": "Nova Era Games",
+          "coupon": ""
+        },
+        {
+          "store": "Nova Era Games",
+          "price": 3899.9,
+          "games": [
+            "Mario Kart World"
+          ],
+          "url": "https://lojanovaera.com/nintendo-switch-2-com-mario-kart-world-modelo-nacional",
+          "inStock": true,
+          "payment": "Pix",
+          "seller": "Nova Era Games",
+          "coupon": ""
+        },
+        {
+          "store": "Ponto",
+          "price": 3599.99,
+          "games": [],
+          "url": "https://pontofrio.com.br/console-nintendo-switch-2-256gb-armazenamento-tela-lcd-79-quot-1080p-hdr-som-3d-espacial-portatil-tv-preto/p/1572979571",
+          "inStock": true,
+          "payment": "Pix",
+          "seller": "25Best ES",
+          "installments": "6x R$ 666,66 sem juros",
+          "coupon": ""
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 3,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "Nova Era Games",
+        "KaBuM!",
+        "Mercado Livre",
+        "Amazon Brasil",
+        "Shopee",
+        "Magalu",
+        "Casas Bahia",
+        "Ponto",
+        "Carrefour",
+        "Fast Shop"
+      ],
+      "blockers": [
+        "KaBuM! retornou HTTP 403 na verificação do produto; demais resultados sem confirmação contemporânea suficiente de estoque, vendedor ou preço. Pesquisa parcial."
+      ]
     }
   ]
 }
