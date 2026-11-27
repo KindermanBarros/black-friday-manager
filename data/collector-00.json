@@ -764,6 +764,48 @@
       "blockers": [
         "Consultas agregadas e alternativas; resultados de outros varejistas indexados há semanas ou meses, sem revalidação suficiente nesta execução. Frete e cupons não confirmados."
       ]
+    },
+    {
+      "at": "2026-11-27T09:35:00-04:00",
+      "offers": [],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "Amazon Brasil",
+          "Carrefour",
+          "Casas Bahia",
+          "Fast Shop",
+          "KaBuM!",
+          "Magalu",
+          "Mercado Livre",
+          "Nova Era Games",
+          "Ponto",
+          "Shopee"
+        ],
+        "blockers": [
+          "Amazon Brasil: search HTTPError",
+          "Carrefour: search HTTPError",
+          "Casas Bahia: search HTTPError",
+          "Fast Shop: search HTTPError",
+          "KaBuM!: HTTPError HTTP 403",
+          "KaBuM!: no unique product structured data",
+          "Magalu: ValueError",
+          "Magalu: search HTTPError",
+          "Mercado Livre: no direct product links discovered",
+          "Nova Era Games: ConnectTimeout",
+          "Nova Era Games: search HTTPError",
+          "Ponto: HTTPError HTTP 403",
+          "Ponto: search HTTPError",
+          "Shopee: no direct product links discovered",
+          "Shopee: no unique product structured data"
+        ],
+        "newLinks": 0,
+        "changedPrices": 0,
+        "unchangedPrices": 0
+      }
     }
   ]
 }
