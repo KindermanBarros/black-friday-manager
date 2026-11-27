@@ -951,6 +951,66 @@
           "Consultas Amazon e Shopee sem resultados individuais úteis; resultados de outras lojas acima do teto ou com condição/estoque incertos. Frete regional e checkout não verificados."
         ]
       }
+    },
+    {
+      "at": "2026-11-27T18:56:10.163Z",
+      "offers": [
+        {
+          "store": "iLoja",
+          "title": "Xiaomi POCO F8 Pro 5G Prata",
+          "brand": "Xiaomi",
+          "model": "POCO F8 Pro",
+          "price": 3890.17,
+          "url": "https://ilojabr.com.br/products/xiaomi-poco-f8-pro-5g",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Página individual indica indisponível; condição não informada.",
+          "ramGB": 12,
+          "storageGB": 256,
+          "chipset": "Snapdragon 8 Elite",
+          "payment": "Pix",
+          "warranty": "3 meses",
+          "shipping": "Frete grátis nacional anunciado; prazo Manaus não confirmado",
+          "installments": "18x R$296,06 sem juros",
+          "coupon": "BLACK50: R$50 a partir de R$1000; validade e cumulatividade não confirmadas; hipotético R$3840,17"
+        },
+        {
+          "store": "iLoja",
+          "title": "REDMAGIC 11 Pro 5G Preto",
+          "brand": "REDMAGIC",
+          "model": "11 Pro",
+          "price": 5252.35,
+          "url": "https://ilojabr.com.br/products/redmagic-11-pro-5g",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Acima do teto; estoque regional não confirmado.",
+          "ramGB": 12,
+          "storageGB": 256,
+          "payment": "Pix",
+          "warranty": "3 meses",
+          "installments": "18x R$399,73 sem juros",
+          "coupon": "BLACK50: R$50 a partir de R$1000; validade e cumulatividade não confirmadas"
+        }
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "iLoja",
+          "KaBuM!",
+          "Amazon Brasil",
+          "Shopee",
+          "Mercado Livre",
+          "Magalu"
+        ],
+        "blockers": [
+          "POCO F8 Pro explicitamente indisponível na página individual; condição não informada.",
+          "RedMagic 11 Air: página individual inacessível; preço de catálogo não qualifica.",
+          "KaBuM! retornou usados e acessórios; consultas restantes não retornaram ofertas individuais elegíveis. Cobertura parcial; frete regional, impostos e checkout não confirmados."
+        ]
+      }
     }
   ]
 }
