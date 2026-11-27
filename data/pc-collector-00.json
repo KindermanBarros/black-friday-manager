@@ -676,6 +676,51 @@
         "Amazon retornou HTTP 503; Xtreme bloqueou abertura; Shopee sem anúncio validado; Mercado Livre sem preço elegível confirmado.",
         "Pesquisa parcial; nem todos os históricos revalidados. Nenhum cupom adicional confirmado."
       ]
+    },
+    {
+      "at": "2026-11-27T09:35:01-04:00",
+      "offers": [],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "Amazon Brasil",
+          "Carrefour",
+          "Casas Bahia",
+          "Fast Shop",
+          "KaBuM!",
+          "Magalu",
+          "Mercado Livre",
+          "Pichau",
+          "Ponto",
+          "Shopee",
+          "TerabyteShop"
+        ],
+        "blockers": [
+          "Amazon Brasil: no unique product structured data",
+          "Amazon Brasil: search HTTPError",
+          "Carrefour: search HTTPError",
+          "Casas Bahia: search HTTPError",
+          "Fast Shop: search HTTPError",
+          "KaBuM!: HTTPError HTTP 403",
+          "KaBuM!: no unique product structured data",
+          "Magalu: ValueError",
+          "Magalu: search HTTPError",
+          "Mercado Livre: no direct product links discovered",
+          "Mercado Livre: no unique product structured data",
+          "Pichau: HTTPError HTTP 403",
+          "Pichau: search HTTPError",
+          "Ponto: search HTTPError",
+          "Shopee: no direct product links discovered",
+          "TerabyteShop: HTTPError HTTP 403",
+          "TerabyteShop: search HTTPError"
+        ],
+        "newLinks": 0,
+        "changedPrices": 0,
+        "unchangedPrices": 0
+      }
     }
   ]
 }
