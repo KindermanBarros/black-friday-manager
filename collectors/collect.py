@@ -42,12 +42,12 @@ CORE = tuple(STORES)[:9]
 TERMS = {
     "switch": ("nintendo switch 2 console", "nintendo switch 2 mario kart world", "nintendo switch 2 bundle", "console switch 2 256gb"),
     "pc": ("pc gamer ryzen 7 rtx 5060 16gb", "pc gamer i7 rtx 5060 16gb", "computador gamer ryzen 7 rtx 5070", "pc gamer i7 rtx 4060 ti 16gb"),
-    "phone": ("galaxy s25 ultra galaxy s24 ultra", "motorola edge 50 ultra edge 60 pro", "google pixel pro redmagic", "xiaomi 15 ultra oneplus 13 honor magic pro"),
+    "phone": ("galaxy s25 ultra", "motorola edge 50 ultra", "google pixel 9 pro", "redmagic 10 pro", "xiaomi 15 ultra", "oneplus 13"),
 }
 GAMES = ("Mario Kart World", "Donkey Kong Bananza", "EA Sports FC 26", "EA Sports FC 27", "Pokémon Legends: Z-A", "Super Mario Bros. Wonder", "Super Mario Galaxy 1 + 2", "Metroid Prime 4: Beyond")
 PHONE_PATTERNS = (
     ("Samsung", r"galaxy s(?:2[2-6]) ultra"),
-    ("Motorola", r"(?:motorola )?edge (?:30|40|50|60|70) (?:ultra|pro)"),
+    ("Motorola", r"(?:motorola )?edge (?:(?:30|50|60|70) ultra|(?:30|40) pro)"),
     ("Google", r"pixel (?:[6-9]|10|11) pro(?: xl)?"),
     ("REDMAGIC", r"red ?magic (?:[7-9]|10|11)(?:s)?(?: pro(?: plus)?)?"),
     ("Xiaomi", r"xiaomi (?:1[2-7]) (?:ultra|pro)"),
@@ -145,7 +145,7 @@ def classify(cat, title, desc, offer):
     if cat == "switch":
         if not re.search(r"\b(?:nintendo )?switch\s*2\b", t) or not re.search(r"\b(console|nintendo switch 2)\b", t):
             return None
-        if re.search(r"\b(capa|case|pelicula|protetor|suporte|carregador|controle|controlador|joystick|acessorio|dock|cartao|bolsa|jogo para|game para)\b", t) and "console" not in t:
+        if re.search(r"\b(capa|case|pelicula|protetor|suporte|carregador|controle|controlador|joystick|acessorio|dock|cartao|bolsa|jogo para|game para)\b", t) and (not "console" in t or re.search(r"\b(?:capa|case|pelicula|protetor|suporte|carregador|controle|controlador|joystick|acessorio|dock|cartao|bolsa)\b.*\b(?:para|compativel com)\b.*\b(?:console|switch)\b", t)):
             return None
         games = [g for g in GAMES if norm(g) in t]
         if not games and re.search(r"\b(bundle|pacote|kit|com jogo|game incluso|jogo incluso)\b", t):
@@ -259,6 +259,47 @@ def discovery(store, query):
             break
     return list(links.values())
 
+
+def radar_links(cat):
+    """Use existing public Radar Ofertas output only to discover URLs, not prices.
+    No upstream code copied. Promotion links are not verified listings."""
+    feed = "https://raw.githubusercontent.com/gglucche/radar-ofertas/main/docs/dados.json"
+    response = requests.get(feed, timeout=(5, 12), allow_redirects=False)
+    response.raise_for_status()
+    if len(response.content) > 12_000_000:
+        raise ValueError("Radar feed too large")
+    rows = response.json().get("ofertas", [])
+    result = []
+    promo_hosts = {"promobit.com.br", "www.promobit.com.br", "gatry.com", "www.gatry.com", "pelando.com.br", "www.pelando.com.br"}
+    for row in rows:
+        title = norm(row.get("titulo", ""))
+        relevant = (re.search(r"switch\s*2", title) if cat == "switch" else re.search(r"pc gamer|computador gamer|desktop", title) if cat == "pc" else any(re.search(pattern, title) for _, pattern in PHONE_PATTERNS))
+        if not relevant:
+            continue
+        url = row.get("url")
+        if not isinstance(url, str):
+            continue
+        if store_for(url):
+            result.append(url)
+        else:
+            p = urlsplit(url)
+            if p.scheme != "https" or p.hostname not in promo_hosts or p.username or p.password:
+                continue
+            try:
+                page = requests.get(url, timeout=(5, 8), allow_redirects=False)
+                if page.status_code != 200 or len(page.content) > 4_000_000:
+                    continue
+                soup = BeautifulSoup(page.content, "html.parser")
+                for a in soup.select("a[href]"):
+                    dest = urljoin(url, a["href"])
+                    if store_for(dest):
+                        result.append(dest)
+            except requests.RequestException:
+                continue
+        if len(result) >= 30:
+            break
+    return result[:30]
+
 def history(cat):
     known = {}
     observations = []
@@ -276,7 +317,7 @@ def history(cat):
             continue
     return known
 
-def collect(feed, at):
+def collect(feed, at, output):
     cat = category(feed)
     known = history(cat)
     stores = CORE + EXTRAS[cat]
@@ -308,11 +349,22 @@ def collect(feed, at):
                     blockers.add(pending[f] + ": " + err)
     def count():
         return sum(o["inStock"] and o.get("eligible", True) for o in found.values())
-    # Known listings first; bounded, newest observed first.
+    def checkpoint(finished=False):
+        n = count()
+        reasons = sorted(blockers | (set() if finished else {"research checkpoint: collection may have been interrupted"}))
+        result = {"at": at, "offers": sorted(found.values(), key=lambda o: (not o["inStock"], o["price"], o["url"])), "metadata": {"status": "complete" if n >= 10 else "below_minimum", "eligibleCount": n, "target": 20, "minimum": 10, "storesSearched": sorted(attempted), "blockers": reasons, "targetMet": n >= 20, "newLinks": sum(o["url"] not in known for o in found.values() if o["inStock"]), "changedPrices": sum(o["url"] in known and o["price"] != known[o["url"]]["price"] for o in found.values() if o["inStock"]), "unchangedPrices": sum(o["url"] in known and o["price"] == known[o["url"]]["price"] for o in found.values() if o["inStock"])}}
+        path = Path(output)
+        temp = path.with_suffix(".tmp")
+        temp.write_text(json.dumps(result, ensure_ascii=False), encoding="utf-8")
+        temp.replace(path)
+        return result
+    # Search all required stores even when known links already meet the target.
+    checkpoint()
     run_checks(list(known)[-32:])
+    checkpoint()
     # Every required retailer is searched; alternate queries if target not met.
     for q in TERMS[cat]:
-        if time.monotonic() - started > 180:
+        if q != TERMS[cat][0] and time.monotonic() - started > 240:
             blockers.add("research time budget reached")
             break
         candidates = {}
@@ -332,14 +384,22 @@ def collect(feed, at):
         # Round-robin prevents one retailer consuming all validation slots.
         batch = [v[i] for i in range(8) for v in candidates.values() if i < len(v)]
         run_checks(batch[:48])
+        checkpoint()
         if count() >= 20:
             break
-    n = count()
-    return {"at": at, "offers": sorted(found.values(), key=lambda o: (not o["inStock"], o["price"], o["url"])), "metadata": {"status": "complete" if n >= 20 else "below_minimum", "eligibleCount": n, "target": 20, "minimum": 10, "storesSearched": sorted(attempted), "blockers": sorted(blockers), "newLinks": sum(o["url"] not in known for o in found.values() if o["inStock"]), "changedPrices": sum(o["url"] in known and o["price"] != known[o["url"]]["price"] for o in found.values() if o["inStock"]), "unchangedPrices": sum(o["url"] in known and o["price"] == known[o["url"]]["price"] for o in found.values() if o["inStock"])}}
+    if count() < 20 and time.monotonic() - started < 330:
+        try:
+            links = radar_links(cat)
+            if not links:
+                blockers.add("Radar Ofertas: no direct retailer links extracted")
+            run_checks(links)
+        except Exception as exc:
+            blockers.add("Radar Ofertas: " + type(exc).__name__)
+        checkpoint()
+    return checkpoint(finished=True)
 
 if __name__ == "__main__":
     feed, at, output = sys.argv[1:]
     if feed not in FEEDS:
         raise SystemExit("invalid collector")
-    result = collect(feed, at)
-    Path(output).write_text(json.dumps(result, ensure_ascii=False), encoding="utf-8")
+    collect(feed, at, output)
