@@ -757,6 +757,71 @@
           "Revalidação histórica parcial; cupons e frete não confirmados"
         ]
       }
+    },
+    {
+      "at": "2026-11-27T17:25:42.628Z",
+      "offers": [
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "eligible": false,
+          "store": "Magalu",
+          "title": "BluePC Ludic PGBP-1217LUD",
+          "price": 5787.3,
+          "url": "https://www.magazineluiza.com.br/pc-gamer-ludic-by-bluepc-amd-ryzen-7-5700x-geforce-rtx-5060-8gb-gddr7-16gb-ddr4-ssd-512gb-m-2-nvme-fonte-600w-80-plus-pgbp-1217lud/p/hhac1786hf/in/pcgm",
+          "ssdGB": 512,
+          "psu": "600 W 80 Plus",
+          "seller": "2Eletro",
+          "payment": "Pix 20%",
+          "installments": "10x R$ 723,41 sem juros",
+          "reason": "Montagem e estoque não confirmados"
+        },
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "eligible": false,
+          "store": "Pichau",
+          "title": "PC Gamer Pichau 65947",
+          "price": 5970.89,
+          "url": "https://www.pichau.com.br/pc-gamer-pichau-amd-ryzen-7-5700x-geforce-rtx-5060-8gb-16gb-ddr4-ssd-480gb-65947",
+          "ssdGB": 480,
+          "payment": "Pix 15%",
+          "installments": "12x R$ 585,38 sem juros",
+          "reason": "91 disponíveis, mas simultaneamente esgotado e indisponível"
+        }
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "Pichau",
+          "TerabyteShop",
+          "KaBuM!",
+          "Amazon Brasil",
+          "Mercado Livre",
+          "Shopee",
+          "Magalu",
+          "Setup Ninja",
+          "Infoturbo",
+          "Enifler"
+        ],
+        "blockers": [
+          "Pesquisa e revalidação histórica parciais; apenas duas páginas atuais verificadas",
+          "KaBuM! BluePC Pulse R$ 5999 em catálogo sem validação individual",
+          "Estoque contraditório Pichau; montagem e estoque não confirmados Magalu",
+          "Cupons adicionais e frete não confirmados"
+        ]
+      }
     }
   ]
 }
