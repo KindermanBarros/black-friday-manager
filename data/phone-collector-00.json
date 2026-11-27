@@ -1153,6 +1153,65 @@
           "Resultados agregados não confirmam estoque, condição e custos obrigatórios; cobertura parcial."
         ]
       }
+    },
+    {
+      "at": "2026-11-27T18:01:12-04:00",
+      "offers": [
+        {
+          "store": "Mercado Livre",
+          "title": "Samsung Galaxy S23 Ultra (eSIM) 5G Dual SIM 512 GB Violeta 12 GB RAM",
+          "brand": "Samsung",
+          "model": "Galaxy S23 Ultra",
+          "price": 8499,
+          "url": "https://mercadolivre.com.br/samsung-galaxy-s23-ultra-esim-5g-dual-sim-512-gb-violeta-12-gb-ram/p/MLB24594014",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Acima do teto; estoque atual não confirmado; página indexada na última semana.",
+          "ramGB": 12,
+          "storageGB": 512,
+          "installments": "10x R$849,90 sem juros"
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "iLoja",
+        "Mercado Livre",
+        "Amazon Brasil (agregado)",
+        "Magalu (agregado)",
+        "Vivo (agregado)",
+        "Shopee (agregado)",
+        "KaBuM! (consulta)",
+        "TLC Store"
+      ],
+      "blockers": [
+        "Edge 50 Ultra Vivo R$3284,10 apenas em resultado agregado, estoque não confirmado.",
+        "RedMagic 11 Air iLoja R$3577,73 apenas catálogo; estoque não confirmado.",
+        "Galaxy S23 Ultra Mercado Livre R$8499 acima do teto; demais consultas sem validação individual suficiente. Cobertura parcial."
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "iLoja",
+          "Mercado Livre",
+          "Amazon Brasil (agregado)",
+          "Magalu (agregado)",
+          "Vivo (agregado)",
+          "Shopee (agregado)",
+          "KaBuM! (consulta)",
+          "TLC Store"
+        ],
+        "blockers": [
+          "Edge 50 Ultra Vivo R$3284,10 apenas em resultado agregado, estoque não confirmado.",
+          "RedMagic 11 Air iLoja R$3577,73 apenas catálogo; estoque não confirmado.",
+          "Galaxy S23 Ultra Mercado Livre R$8499 acima do teto; demais consultas sem validação individual suficiente. Cobertura parcial."
+        ]
+      }
     }
   ]
 }
