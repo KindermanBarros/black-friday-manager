@@ -61,6 +61,169 @@
           "installments": "10x R$ 399,90 sem juros"
         }
       ]
+    },
+    {
+      "at": "2026-11-27T08:20:48.432Z",
+      "offers": [
+        {
+          "store": "KaBuM!",
+          "price": 3999,
+          "games": [],
+          "url": "https://www.kabum.com.br/produto/777177/console-nintendo-switch-2-256gb-preto-azul-e-vermelho",
+          "inStock": true,
+          "payment": "Pix",
+          "coupon": "",
+          "seller": "KaBuM!",
+          "shipping": null,
+          "installments": "10x R$ 399,90 sem juros"
+        },
+        {
+          "store": "KaBuM!",
+          "price": 4099,
+          "games": [
+            "EA Sports FC 27"
+          ],
+          "url": "https://www.kabum.com.br/produto/1076479/bundle-nintendo-switch-2-abc",
+          "inStock": true,
+          "payment": "Pix",
+          "coupon": "JOGAFIFINHA — anunciado; desconto adicional não validado",
+          "seller": "KaBuM!",
+          "shipping": null,
+          "installments": "10x R$ 409,90 sem juros"
+        },
+        {
+          "store": "KaBuM!",
+          "price": 4463.07,
+          "games": [
+            "Nintendo Switch Sports Resort"
+          ],
+          "url": "https://www.kabum.com.br/produto/1074649/bundle-console-nintendo-switch-2-com-sports-resort-digital-e-3-meses-nintendo-switch-online-256gb-tela-lcd-7-9-12-esportes-joy-con-2-ate-4-jogadores-locais-e-multiplayer-online",
+          "inStock": true,
+          "payment": "Pix",
+          "coupon": "",
+          "seller": "KaBuM!",
+          "shipping": null,
+          "installments": "10x R$ 479,90 sem juros"
+        },
+        {
+          "store": "Shopee",
+          "price": 4199,
+          "games": [
+            "Mario Kart World"
+          ],
+          "url": "https://shopee.com.br/Bundle-Nintendo-Switch-2--Mario-Kart-World-Preto-i.829012010.47768891068",
+          "inStock": true,
+          "payment": "Sem cupom; outros meios",
+          "coupon": "R$ 3.771,08 no Pix com cupom anunciado; código não exibido, elegibilidade não testada",
+          "seller": "Webfones",
+          "shipping": null,
+          "installments": null
+        },
+        {
+          "store": "Shopee",
+          "price": 4549,
+          "games": [
+            "Mario Kart World"
+          ],
+          "url": "https://shopee.com.br/Console-Nintendo-Switch-2-Mario-Kart-World-i.1343318906.47268883565?extraParams=%7B%22display_model_id%22%3A441583750370%2C%22model_selection_logic%22%3A3%7D",
+          "inStock": true,
+          "payment": "Sem cupom; outros meios",
+          "coupon": "R$ 4.093,08 no Pix com cupom anunciado; código não exibido, elegibilidade não testada",
+          "seller": "NegociuN",
+          "shipping": null,
+          "installments": null
+        },
+        {
+          "store": "Shopee",
+          "price": 4140,
+          "games": [],
+          "url": "https://shopee.com.br/Console-Nintendo-Switch-2---256gb-Lcd-Gray-Novo-Lacrado-Acompanha-adaptador-de-tomada-i.393676873.58216468627",
+          "inStock": true,
+          "payment": "Sem cupom; outros meios",
+          "coupon": "R$ 3.716,80 no Pix com cupom anunciado; verificar variante e elegibilidade",
+          "seller": "ESTEVAO VAREJO",
+          "shipping": null,
+          "installments": null
+        },
+        {
+          "store": "Nova Era Games",
+          "price": 3699.9,
+          "games": [],
+          "url": "https://www.lojanovaera.com/nintendo-switch-2-modelo-importado",
+          "inStock": true,
+          "payment": "Pix — importado",
+          "coupon": "",
+          "seller": "Nova Era Games",
+          "shipping": null,
+          "installments": null
+        },
+        {
+          "store": "Nova Era Games",
+          "price": 3799.9,
+          "games": [],
+          "url": "https://www.lojanovaera.com/nintendo-switch-2-256gb-original-nintendo-novo-lacrado",
+          "inStock": true,
+          "payment": "Pix — nacional",
+          "coupon": "",
+          "seller": "Nova Era Games",
+          "shipping": null,
+          "installments": null
+        },
+        {
+          "store": "Nova Era Games",
+          "price": 3899.9,
+          "games": [
+            "Mario Kart World"
+          ],
+          "url": "https://www.lojanovaera.com/nintendo-switch-2-com-mario-kart-world-modelo-nacional",
+          "inStock": true,
+          "payment": "Pix — nacional",
+          "coupon": "",
+          "seller": "Nova Era Games",
+          "shipping": null,
+          "installments": null
+        },
+        {
+          "store": "Nova Era Games",
+          "price": 3799.9,
+          "games": [
+            "Nintendo Switch Sports Resort"
+          ],
+          "url": "https://www.lojanovaera.com/nintendo-switch-2-bundle-sports-resort-light-blue-e-light-red-modelo-nacional-novo-lacrado",
+          "inStock": true,
+          "payment": "Pix — nacional; inclui 3 meses Online",
+          "coupon": "",
+          "seller": "Nova Era Games",
+          "shipping": null,
+          "installments": null
+        },
+        {
+          "store": "Nova Era Games",
+          "price": 3799.9,
+          "games": [
+            "EA Sports FC 27"
+          ],
+          "url": "https://www.lojanovaera.com/nintendo-switch-2-edicao-bundle-ea-sports-fc-27-modelo-nacional-novo-lacrado",
+          "inStock": true,
+          "payment": "Pix — nacional",
+          "coupon": "",
+          "seller": "Nova Era Games",
+          "shipping": null,
+          "installments": null
+        },
+        {
+          "store": "Nova Era Games",
+          "price": 6599.9,
+          "games": [],
+          "url": "https://www.lojanovaera.com/nintendo-switch-2-the-legend-of-zelda-40th-anniversary-edition-novo-lacrado",
+          "inStock": true,
+          "payment": "Pix — edição Zelda importada, sem jogo",
+          "coupon": "",
+          "seller": "Nova Era Games",
+          "shipping": null,
+          "installments": null
+        }
+      ]
     }
   ]
 }
