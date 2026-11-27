@@ -674,6 +674,96 @@
       "blockers": [
         "Consultas agregadas e alternativas; cinco páginas individuais com estoque explícito. Outros resultados indexados ou sem confirmação suficiente de estoque atual. Frete e cupons não validados."
       ]
+    },
+    {
+      "at": "2026-11-27T12:58:42.290Z",
+      "offers": [
+        {
+          "store": "Nova Era Games",
+          "price": 3699.9,
+          "games": [],
+          "url": "https://lojanovaera.com/nintendo-switch-2-modelo-importado",
+          "inStock": true,
+          "payment": "Pix",
+          "seller": "Nova Era Games",
+          "coupon": "",
+          "shipping": null,
+          "installments": null
+        },
+        {
+          "store": "Nova Era Games",
+          "price": 3799.9,
+          "games": [],
+          "url": "https://lojanovaera.com/nintendo-switch-2-256gb-original-nintendo-novo-lacrado",
+          "inStock": true,
+          "payment": "Pix",
+          "seller": "Nova Era Games",
+          "coupon": "",
+          "shipping": null,
+          "installments": null
+        },
+        {
+          "store": "Nova Era Games",
+          "price": 3899.9,
+          "games": [
+            "Mario Kart World"
+          ],
+          "url": "https://lojanovaera.com/nintendo-switch-2-com-mario-kart-world-modelo-nacional",
+          "inStock": true,
+          "payment": "Pix",
+          "seller": "Nova Era Games",
+          "coupon": "",
+          "shipping": null,
+          "installments": null
+        },
+        {
+          "store": "Nova Era Games",
+          "price": 3799.9,
+          "games": [
+            "EA Sports FC 27"
+          ],
+          "url": "https://lojanovaera.com/nintendo-switch-2-edicao-bundle-ea-sports-fc-27-modelo-nacional-novo-lacrado",
+          "inStock": true,
+          "payment": "Pix",
+          "seller": "Nova Era Games",
+          "coupon": "",
+          "shipping": null,
+          "installments": null
+        },
+        {
+          "store": "Nova Era Games",
+          "price": 3799.9,
+          "games": [
+            "Nintendo Switch Sports Resort"
+          ],
+          "url": "https://lojanovaera.com/nintendo-switch-2-bundle-sports-resort-light-blue-e-light-red-modelo-nacional-novo-lacrado",
+          "inStock": true,
+          "payment": "Pix",
+          "seller": "Nova Era Games",
+          "coupon": "",
+          "shipping": null,
+          "installments": null
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 5,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "Nova Era Games",
+        "Amazon Brasil",
+        "Shopee",
+        "Mercado Livre",
+        "KaBuM!",
+        "Magalu",
+        "Casas Bahia",
+        "Ponto",
+        "Carrefour",
+        "Fast Shop"
+      ],
+      "blockers": [
+        "Consultas agregadas e alternativas; resultados de outros varejistas indexados há semanas ou meses, sem revalidação suficiente nesta execução. Frete e cupons não confirmados."
+      ]
     }
   ]
 }
