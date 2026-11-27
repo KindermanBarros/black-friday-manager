@@ -1011,6 +1011,77 @@
           "KaBuM! retornou usados e acessórios; consultas restantes não retornaram ofertas individuais elegíveis. Cobertura parcial; frete regional, impostos e checkout não confirmados."
         ]
       }
+    },
+    {
+      "at": "2026-11-27T20:00:20.138Z",
+      "offers": [
+        {
+          "store": "REDMAGIC Brasil",
+          "title": "REDMAGIC 11 Air Phantom 12/256 GB",
+          "brand": "REDMAGIC",
+          "model": "11 Air",
+          "price": 3799,
+          "url": "https://br.redmagic.gg/products/redmagic-11-air",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Página indexada indica esgotado; estoque atual não confirmado.",
+          "ramGB": 12,
+          "storageGB": 256,
+          "chipset": "Snapdragon 8 Elite"
+        },
+        {
+          "store": "TLC Store",
+          "title": "Redmagic 11 Air",
+          "brand": "REDMAGIC",
+          "model": "11 Air",
+          "price": 4661.94,
+          "url": "https://tlcstore.com.br/produtos/redmagic-11-air-s51m6",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Acima do teto; página indexada indica esgotado e última peça de forma contraditória.",
+          "payment": "Pix"
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "REDMAGIC Brasil",
+        "iLoja",
+        "Mercado Livre",
+        "Shopee",
+        "TLC Store",
+        "Amazon Brasil (consulta agregada)",
+        "KaBuM! (consulta agregada)",
+        "Magalu (consulta agregada)"
+      ],
+      "blockers": [
+        "REDMAGIC 11 Air oficial aparece esgotado; indexação antiga, disponibilidade atual não confirmada.",
+        "iLoja anuncia R$3577,73 no catálogo, sem confirmação individual nesta execução.",
+        "Consultas agregadas não retornaram anúncios elegíveis verificáveis; cobertura parcial, frete Manaus e impostos não confirmados."
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "REDMAGIC Brasil",
+          "iLoja",
+          "Mercado Livre",
+          "Shopee",
+          "TLC Store",
+          "Amazon Brasil (consulta agregada)",
+          "KaBuM! (consulta agregada)",
+          "Magalu (consulta agregada)"
+        ],
+        "blockers": [
+          "REDMAGIC 11 Air oficial aparece esgotado; indexação antiga, disponibilidade atual não confirmada.",
+          "iLoja anuncia R$3577,73 no catálogo, sem confirmação individual nesta execução.",
+          "Consultas agregadas não retornaram anúncios elegíveis verificáveis; cobertura parcial, frete Manaus e impostos não confirmados."
+        ]
+      }
     }
   ]
 }
