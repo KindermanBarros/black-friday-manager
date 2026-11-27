@@ -116,6 +116,82 @@
         "Xiaomi 15 e Edge 50 Ultra abaixo do teto em resultados agregados, sem confirmação individual de estoque, vendedor e condições.",
         "Demais resultados acima do teto, intermediários ou sem validação suficiente. Cobertura parcial."
       ]
+    },
+    {
+      "at": "2026-11-27T10:04:20.798Z",
+      "offers": [
+        {
+          "store": "iLoja",
+          "title": "REDMAGIC 9 Pro 5G Prata 512GB",
+          "brand": "REDMAGIC",
+          "model": "9 Pro",
+          "price": 4638.42,
+          "url": "https://ilojabr.com.br/products/redmagic-9-pro-5g",
+          "inStock": true,
+          "eligible": false,
+          "reason": "Acima do teto; condição novo não explicitada.",
+          "ramGB": 16,
+          "storageGB": 512,
+          "chipset": "Snapdragon 8 Gen 3",
+          "payment": "Pix",
+          "seller": "iLoja",
+          "warranty": "3 meses",
+          "installments": "18x R$353,00 sem juros",
+          "coupon": "BLACK50: R$50 acima de R$1000; validade e cumulatividade não confirmadas; hipotético R$4588,42",
+          "shipping": null
+        },
+        {
+          "store": "iLoja",
+          "title": "REDMAGIC 11 Pro 5G Preto 256GB",
+          "brand": "REDMAGIC",
+          "model": "11 Pro",
+          "price": 5252.35,
+          "url": "https://ilojabr.com.br/products/redmagic-11-pro-5g",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Acima do teto; página apresenta indicação de indisponibilidade e botão de compra contraditórios.",
+          "ramGB": 12,
+          "storageGB": 256,
+          "payment": "Pix",
+          "seller": "iLoja",
+          "installments": "18x R$399,73 sem juros",
+          "coupon": "BLACK50: R$50 acima de R$1000; validade e cumulatividade não confirmadas; hipotético R$5202,35"
+        },
+        {
+          "store": "Magalu",
+          "title": "REDMAGIC 9 Pro 512GB 16GB",
+          "brand": "REDMAGIC",
+          "model": "9 Pro",
+          "price": 4616.34,
+          "url": "https://magazineluiza.com.br/smartphone-celular-redmagic-9-pro-512gb-16gb-ram-tela-68-amoled-120hz-android-14-camera-50mp-bateria-6500mah-dual-sim/p/bc13614bf9/te/tcsp?seller_id=newtelefonia",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Acima do teto; estoque atual não confirmado, indexação antiga.",
+          "ramGB": 16,
+          "storageGB": 512,
+          "payment": "Pix",
+          "seller": "New Telefonia",
+          "installments": "10x R$543,10 sem juros"
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "iLoja",
+        "Magalu",
+        "Mercado Livre",
+        "Amazon Brasil",
+        "Shopee",
+        "KaBuM!",
+        "Motorola",
+        "Infotecdez"
+      ],
+      "blockers": [
+        "Resultados agregados Xiaomi 15 e 15T Pro abaixo do teto sem validação individual de estoque, vendedor e custos obrigatórios.",
+        "Pesquisa parcial; demais resultados acima do teto, antigos ou fora da categoria."
+      ]
     }
   ]
 }
