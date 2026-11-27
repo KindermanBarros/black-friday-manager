@@ -1,0 +1,2 @@
+# Black Friday Manager
+Dashboard estático. Importe este repositório na Vercel com preset Other, sem build e diretório de saída raiz. Cada coletor mantém seu próprio JSON em data/collector-00.json ou data/collector-30.json. Acrescente a runs um objeto {at: ISO 8601, offers: [{store, price (BRL numérico), games: [], url (HTTPS), inStock: true, payment, coupon}]}. Não invente ofertas. Preserve o histórico. Compare preços à vista equivalentes. Dados públicos: não inclua informações pessoais ou credenciais.
