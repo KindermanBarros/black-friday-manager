@@ -729,6 +729,80 @@
           "POCO F8 Pro sem condição confirmada e disponibilidade contraditória; RedMagic 11 Air página individual inacessível; resultados agregados sem URL individual validada; pesquisa parcial; frete regional não testado."
         ]
       }
+    },
+    {
+      "at": "2026-11-27T16:04:50.361Z",
+      "offers": [
+        {
+          "store": "iLoja",
+          "title": "Xiaomi POCO F8 Pro 5G",
+          "brand": "Xiaomi",
+          "model": "POCO F8 Pro",
+          "price": 3890.17,
+          "url": "https://ilojabr.com.br/products/xiaomi-poco-f8-pro-5g",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Condição nova e estoque não confirmados independentemente; variante 512GB anunciada a R$3801,11 sem confirmação de disponibilidade",
+          "ramGB": 12,
+          "storageGB": 256,
+          "payment": "Pix",
+          "coupon": "BLACK50: R$50 a partir de R$1000; validade e cumulatividade não verificadas",
+          "warranty": "3 meses",
+          "installments": "18x R$296,06"
+        },
+        {
+          "store": "iLoja",
+          "title": "REDMAGIC 11 Pro 5G",
+          "brand": "RedMagic",
+          "model": "11 Pro",
+          "price": 5252.35,
+          "url": "https://ilojabr.com.br/products/redmagic-11-pro-5g",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Acima do teto; estoque e condição não confirmados independentemente",
+          "ramGB": 12,
+          "storageGB": 256,
+          "payment": "Pix",
+          "coupon": "BLACK50: R$50 a partir de R$1000; validade e cumulatividade não verificadas",
+          "warranty": "3 meses",
+          "installments": "18x R$399,73"
+        },
+        {
+          "store": "Amazon Brasil",
+          "title": "Samsung Galaxy S25 Ultra 256GB Titânio Prata",
+          "brand": "Samsung",
+          "model": "Galaxy S25 Ultra",
+          "price": 5998.89,
+          "url": "https://www.amazon.com.br/Celular-Samsung-Galaxy-Qu%C3%A1drupla-Tit%C3%A2nio/dp/B0DSXZQH8D",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Acima do teto; fonte indexada há três semanas, estoque atual não confirmado",
+          "ramGB": 12,
+          "storageGB": 256,
+          "chipset": "Snapdragon 8 Elite",
+          "seller": "Amazon.com.br"
+        }
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "iLoja",
+          "Amazon Brasil",
+          "Shopee",
+          "Mercado Livre",
+          "KaBuM!",
+          "Magalu",
+          "Vivo",
+          "Motorola",
+          "LG Importados"
+        ],
+        "blockers": [
+          "Pesquisa parcial; resultados agregados ou indexados sem confirmação atual de estoque e condição; RedMagic 11 Air página individual inacessível; frete e impostos não confirmados."
+        ]
+      }
     }
   ]
 }
