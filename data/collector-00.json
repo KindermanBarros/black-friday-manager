@@ -44,6 +44,23 @@
           "installments": "10x R$ 409,90 sem juros"
         }
       ]
+    },
+    {
+      "at": "2026-11-27T08:17:31.315Z",
+      "offers": [
+        {
+          "store": "KaBuM!",
+          "price": 3999,
+          "games": [],
+          "url": "https://www.kabum.com.br/produto/777177/console-nintendo-switch-2-256gb-preto-azul-e-vermelho",
+          "inStock": true,
+          "payment": "Pix",
+          "coupon": "",
+          "seller": "KaBuM!",
+          "shipping": null,
+          "installments": "10x R$ 399,90 sem juros"
+        }
+      ]
     }
   ]
 }
