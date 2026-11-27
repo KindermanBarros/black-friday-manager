@@ -668,6 +668,67 @@
           "Resultados agregados sem validação de condição e estoque; estoque regional Vivo não confirmado; RedMagic Pro acima do teto; pesquisa parcial."
         ]
       }
+    },
+    {
+      "at": "2026-11-27T14:58:16.900Z",
+      "offers": [
+        {
+          "store": "iLoja",
+          "title": "Xiaomi POCO F8 Pro 5G Prata",
+          "brand": "Xiaomi",
+          "model": "POCO F8 Pro",
+          "price": 3890.17,
+          "url": "https://ilojabr.com.br/products/xiaomi-poco-f8-pro-5g",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Campo condição vazio; disponibilidade contraditória na página; confirmar aparelho novo e estoque",
+          "ramGB": 12,
+          "storageGB": 256,
+          "chipset": "Snapdragon 8 Elite",
+          "payment": "Pix",
+          "warranty": "3 meses",
+          "coupon": "BLACK50: R$50 acima de R$1000; cumulatividade e validade não confirmadas",
+          "installments": "18x R$296,06",
+          "shipping": 0
+        },
+        {
+          "store": "iLoja",
+          "title": "REDMAGIC 11 Pro 5G",
+          "brand": "RedMagic",
+          "model": "11 Pro",
+          "price": 5252.35,
+          "url": "https://ilojabr.com.br/products/redmagic-11-pro-5g",
+          "inStock": true,
+          "eligible": false,
+          "reason": "Acima do teto; botão de compra disponível, condição e entrega regional não confirmadas",
+          "ramGB": 12,
+          "storageGB": 256,
+          "payment": "Pix",
+          "warranty": "3 meses",
+          "coupon": "BLACK50: R$50 acima de R$1000; cumulatividade e validade não confirmadas",
+          "installments": "18x R$399,73",
+          "shipping": 0
+        }
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "iLoja",
+          "Amazon Brasil",
+          "Shopee",
+          "Mercado Livre",
+          "KaBuM!",
+          "Magalu",
+          "Vivo",
+          "Motorola"
+        ],
+        "blockers": [
+          "POCO F8 Pro sem condição confirmada e disponibilidade contraditória; RedMagic 11 Air página individual inacessível; resultados agregados sem URL individual validada; pesquisa parcial; frete regional não testado."
+        ]
+      }
     }
   ]
 }
