@@ -806,6 +806,52 @@
         "changedPrices": 0,
         "unchangedPrices": 0
       }
+    },
+    {
+      "at": "2026-11-27T09:36:23-04:00",
+      "offers": [],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "Amazon Brasil",
+          "Carrefour",
+          "Casas Bahia",
+          "Fast Shop",
+          "KaBuM!",
+          "Magalu",
+          "Mercado Livre",
+          "Nova Era Games",
+          "Ponto",
+          "Shopee"
+        ],
+        "blockers": [
+          "Amazon Brasil: no unique product structured data",
+          "Amazon Brasil: search HTTPError",
+          "Carrefour: search HTTPError",
+          "Casas Bahia: search HTTPError",
+          "Fast Shop: search HTTPError",
+          "KaBuM!: new condition not confirmed",
+          "KaBuM!: no unique product structured data",
+          "KaBuM!: seller not confirmed",
+          "Magalu: ValueError",
+          "Magalu: search HTTPError",
+          "Mercado Livre: no direct product links discovered",
+          "Nova Era Games: ConnectTimeout",
+          "Nova Era Games: search HTTPError",
+          "Ponto: HTTPError HTTP 403",
+          "Ponto: search HTTPError",
+          "Radar Ofertas: no direct retailer links extracted",
+          "Shopee: no direct product links discovered",
+          "Shopee: no unique product structured data"
+        ],
+        "targetMet": false,
+        "newLinks": 0,
+        "changedPrices": 0,
+        "unchangedPrices": 0
+      }
     }
   ]
 }
