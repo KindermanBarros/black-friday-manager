@@ -34,6 +34,88 @@
         "Pesquisa parcial compartilhada entre coletores; cobertura mínima não atingida.",
         "Não foi possível confirmar preço, estoque e todos os requisitos simultaneamente."
       ]
+    },
+    {
+      "at": "2026-11-27T09:02:54.169Z",
+      "offers": [
+        {
+          "store": "iLoja",
+          "title": "REDMAGIC 9 Pro 5G Prata 512GB",
+          "brand": "REDMAGIC",
+          "model": "9 Pro",
+          "price": 4638.42,
+          "url": "https://ilojabr.com.br/products/redmagic-9-pro-5g",
+          "inStock": true,
+          "eligible": false,
+          "reason": "Acima do teto; condição novo não explicitada.",
+          "ramGB": 16,
+          "storageGB": 512,
+          "chipset": "Snapdragon 8 Gen 3",
+          "warranty": "3 meses",
+          "payment": "Pix",
+          "seller": "iLoja",
+          "shipping": 0,
+          "installments": "18x R$ 353,00 sem juros",
+          "coupon": "BLACK50: R$50 acima de R$1000; anunciado, validade e cumulatividade não confirmadas; hipotético R$4588,42"
+        },
+        {
+          "store": "iLoja",
+          "title": "REDMAGIC 11 Pro 5G Preto 256GB",
+          "brand": "REDMAGIC",
+          "model": "11 Pro",
+          "price": 5252.35,
+          "url": "https://ilojabr.com.br/products/redmagic-11-pro-5g",
+          "inStock": true,
+          "eligible": false,
+          "reason": "Acima do teto; condição novo não explicitada.",
+          "ramGB": 12,
+          "storageGB": 256,
+          "warranty": "3 meses",
+          "payment": "Pix",
+          "seller": "iLoja",
+          "shipping": 0,
+          "installments": "18x R$399,73 sem juros",
+          "coupon": "BLACK50: R$50 acima de R$1000; anunciado, validade e cumulatividade não confirmadas"
+        },
+        {
+          "store": "Magalu",
+          "title": "Samsung Galaxy S24 Ultra Titânio Cinza 256GB",
+          "brand": "Samsung",
+          "model": "Galaxy S24 Ultra",
+          "price": 5399,
+          "url": "https://www.magazineluiza.com.br/smartphone-samsung-galaxy-s24-ultra-68-galaxy-ai-256gb-titanio-cinza-5g-12gb-ram-cam-quadrupla-200mp-selfie-12mp-bateria-5000mah-dual-chip/p/238093300/te/s24u/?ads=patrocinado",
+          "inStock": true,
+          "eligible": false,
+          "reason": "Acima do teto; entrega para Manaus não confirmada.",
+          "ramGB": 12,
+          "storageGB": 256,
+          "chipset": "Snapdragon 8 Gen 3 for Galaxy",
+          "payment": "Pix",
+          "seller": "Magalu",
+          "installments": "10x R$599,89 sem juros",
+          "coupon": "R$350 anunciado; código e validade não exibidos; não aplicado"
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "Magalu",
+        "Mercado Livre",
+        "Amazon Brasil",
+        "Shopee",
+        "KaBuM!",
+        "Motorola",
+        "Vivo",
+        "iLoja",
+        "Samsung"
+      ],
+      "blockers": [
+        "Mercado Livre retornou HTTP 403 na abertura individual do Edge 50 Ultra.",
+        "Xiaomi 15 e Edge 50 Ultra abaixo do teto em resultados agregados, sem confirmação individual de estoque, vendedor e condições.",
+        "Demais resultados acima do teto, intermediários ou sem validação suficiente. Cobertura parcial."
+      ]
     }
   ]
 }
