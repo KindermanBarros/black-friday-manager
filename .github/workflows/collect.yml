@@ -1,0 +1,85 @@
+name: Free price collectors
+on:
+  schedule:
+    - cron: '0 * * * *'
+    - cron: '30 * * * *'
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "Collector slot (00, 30, or all)"
+        type: choice
+        options: ['00', '30', 'all']
+        default: 'all'
+  push:
+    branches: [main]
+    paths: ['collectors/**', '.github/workflows/collect.yml']
+permissions:
+  contents: read
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - id: plan
+        env:
+          EVENT: ${{ github.event_name }}
+          CRON: ${{ github.event.schedule }}
+          SLOT: ${{ inputs.slot }}
+        run: |
+          python - <<'PY'
+          import os,json
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          event,cron,slot = (os.getenv(k,"") for k in ("EVENT","CRON","SLOT"))
+          if event == "schedule":
+              slot = "30" if cron.startswith("30 ") else "00"
+              if datetime.now(ZoneInfo("America/Manaus")).date().isoformat() > "2026-11-28":
+                  print("Black Friday monitoring period ended; manual runs remain available.")
+                  slot = "stop"
+          elif event == "push":
+              slot = "all"
+          feeds = {"00":["collector-00","pc-collector-00","phone-collector-00"],"30":["collector-30","pc-collector-30"]}
+          items = feeds.get(slot, feeds["00"]+feeds["30"] if slot=="all" else [])
+          with open(os.environ["GITHUB_OUTPUT"],"a") as f:
+              f.write("matrix="+json.dumps(items)+"\n")
+          PY
+  collect:
+    needs: plan
+    if: needs.plan.outputs.matrix != '[]'
+    strategy:
+      fail-fast: false
+      matrix:
+        feed: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    concurrency:
+      group: free-collector-${{ matrix.feed }}
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    env:
+      FEED: ${{ matrix.feed }}
+      SNAPSHOT: /tmp/black-friday-snapshot.json
+    steps:
+      - name: Stable collection timestamp
+        run: |
+          echo "COLLECTED_AT=$(TZ=America/Manaus date --iso-8601=seconds)" >> "$GITHUB_ENV"
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install free libraries
+        run: python -m pip install -r collectors/requirements.txt
+      - name: Contract tests
+        run: python -m unittest discover -s collectors -p 'test_*.py'
+      - name: Research with bounded runtime
+        run: timeout 8m python collectors/collect.py "$FEED" "$COLLECTED_AT" "$SNAPSHOT"
+      - name: Always publish and reread
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python collectors/publish.py "$FEED" "$COLLECTED_AT" "$SNAPSHOT"

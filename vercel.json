@@ -2,5 +2,6 @@
   "framework": "vite",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- src index.html package.json package-lock.json vite.config.ts tsconfig.json tailwind.config.cjs postcss.config.cjs vercel.json"
 }
