@@ -1,1 +1,21 @@
-{"runs":[]}
+{
+  "runs": [
+    {
+      "at": "2026-11-27T08:32:29.453Z",
+      "offers": [],
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "KaBuM!",
+        "Motorola",
+        "Magalu",
+        "Mercado Livre"
+      ],
+      "blockers": [
+        "S24 Ultra e Edge 50 Ultra indisponíveis nas páginas abertas; S25 com acesso 403; demais resultados sem confirmação; pesquisa incompleta"
+      ]
+    }
+  ]
+}
