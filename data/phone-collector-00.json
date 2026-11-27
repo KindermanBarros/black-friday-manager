@@ -579,6 +579,95 @@
         "changedPrices": 0,
         "unchangedPrices": 0
       }
+    },
+    {
+      "at": "2026-11-27T14:04:07.049Z",
+      "offers": [
+        {
+          "store": "Vivo",
+          "title": "Motorola Edge 50 Ultra 512GB Coral",
+          "brand": "Motorola",
+          "model": "Edge 50 Ultra",
+          "price": 3649,
+          "url": "https://store.vivo.com.br/smartphone-motorola-edge-50-ultra-5g-512gb-coral-12gb-ram-12gb-ram-boost-cam-traseira-50mp/p/TGMO461U",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Disponibilidade regional depende de CEP; página indexada sem confirmação de estoque atual",
+          "ramGB": 12,
+          "storageGB": 512,
+          "chipset": "Snapdragon 8s Gen 3",
+          "installments": "15x R$ 243,26 sem juros"
+        },
+        {
+          "store": "Vivo",
+          "title": "Motorola Edge 50 Ultra 512GB Preto",
+          "brand": "Motorola",
+          "model": "Edge 50 Ultra",
+          "price": 3649,
+          "url": "https://store.vivo.com.br/smartphone-motorola-edge-50-ultra-5g-preto-512gb-24gb-12gb-ram-12gb-ram-boost-boost-50mp-ultra-pixel-ai-camera-ip68-nfc/p/TGMO4616",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Disponibilidade regional depende de CEP; página indexada sem confirmação de estoque atual",
+          "ramGB": 12,
+          "storageGB": 512,
+          "chipset": "Snapdragon 8s Gen 3",
+          "installments": "15x R$ 243,26 sem juros"
+        },
+        {
+          "store": "iLoja",
+          "title": "REDMAGIC 9 Pro 5G",
+          "brand": "RedMagic",
+          "model": "9 Pro",
+          "price": 4638.42,
+          "url": "https://ilojabr.com.br/products/redmagic-9-pro-5g",
+          "inStock": true,
+          "eligible": false,
+          "reason": "Acima do teto; botão de compra disponível, entrega regional não testada",
+          "ramGB": 16,
+          "storageGB": 512,
+          "payment": "Pix",
+          "warranty": "3 meses",
+          "coupon": "BLACK50: R$ 50 acima de R$ 1.000; validade e cumulatividade não confirmadas",
+          "installments": "18x R$ 353,00 sem juros"
+        },
+        {
+          "store": "iLoja",
+          "title": "REDMAGIC 11 Pro 5G",
+          "brand": "RedMagic",
+          "model": "11 Pro",
+          "price": 5252.35,
+          "url": "https://ilojabr.com.br/products/redmagic-11-pro-5g",
+          "inStock": true,
+          "eligible": false,
+          "reason": "Acima do teto; botão de compra disponível, entrega regional não testada",
+          "ramGB": 12,
+          "storageGB": 256,
+          "payment": "Pix",
+          "warranty": "3 meses",
+          "coupon": "BLACK50: R$ 50 acima de R$ 1.000; validade e cumulatividade não confirmadas",
+          "installments": "18x R$ 399,73 sem juros"
+        }
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "Vivo",
+          "iLoja",
+          "Amazon Brasil",
+          "Shopee",
+          "Mercado Livre",
+          "KaBuM!",
+          "Magalu",
+          "Motorola",
+          "Samsung"
+        ],
+        "blockers": [
+          "Resultados agregados sem validação de condição e estoque; estoque regional Vivo não confirmado; RedMagic Pro acima do teto; pesquisa parcial."
+        ]
+      }
     }
   ]
 }
