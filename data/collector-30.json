@@ -1688,6 +1688,36 @@
         "changedPrices": 0,
         "unchangedPrices": 5
       }
+    },
+    {
+      "at": "2026-11-28T07:31:07.491-04:00",
+      "offers": [],
+      "metadata": {
+        "status": "research_failed",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "Nova Era Games",
+          "Amazon Brasil",
+          "Shopee",
+          "Mercado Livre",
+          "KaBuM!",
+          "Magalu",
+          "Casas Bahia",
+          "Ponto",
+          "Carrefour",
+          "Fast Shop",
+          "Ciagames",
+          "Horizon Play"
+        ],
+        "blockers": [
+          "Cinco URLs conhecidas inacessíveis; consultas agregadas sem confirmação de estoque, vendedor e pagamento. Pesquisa ampliada não concluída."
+        ],
+        "newLinks": 0,
+        "changedPrices": 0,
+        "unchangedPrices": 0
+      }
     }
   ]
 }
