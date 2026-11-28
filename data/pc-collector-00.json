@@ -2437,6 +2437,71 @@
           "Revalidação histórica parcial; nenhum cupom adicional confirmado"
         ]
       }
+    },
+    {
+      "at": "2026-11-28T13:59:42-00:00",
+      "offers": [
+        {
+          "store": "Pichau",
+          "price": 6199.99,
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "eligible": false,
+          "seller": "Pichau",
+          "payment": "Pix 15%",
+          "installments": "12x R$ 607,84 sem juros",
+          "shipping": "Frete grátis Sul e Sudeste",
+          "warranty": "Por componente",
+          "title": "PC Gamer Pichau 65947",
+          "url": "https://pichau.com.br/pc-gamer-pichau-amd-ryzen-7-5700x-geforce-rtx-5060-8gb-16gb-ddr4-ssd-480gb-65947",
+          "ssdGB": 480,
+          "reason": "Acima do teto; 62 unidades anunciadas contradizem produto indisponível"
+        },
+        {
+          "store": "Pichau",
+          "price": 6199.99,
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "eligible": false,
+          "seller": "Pichau",
+          "payment": "Pix 15%",
+          "installments": "12x R$ 607,84 sem juros",
+          "shipping": "Frete grátis Sul e Sudeste",
+          "warranty": "Por componente",
+          "title": "Pichau Gamer Afrodite 59535",
+          "url": "https://pichau.com.br/pc-pichau-gamer-afrodite-amd-ryzen-7-5700x-geforce-rtx-5060-8gb-16gb-ddr4-ssd-m-2-1tb-59535",
+          "ssdGB": 1000,
+          "motherboard": "B550M",
+          "reason": "Acima do teto e estoque não confirmado"
+        }
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "Pichau",
+          "TerabyteShop",
+          "KaBuM!",
+          "Amazon Brasil",
+          "Mercado Livre",
+          "Shopee",
+          "Magalu"
+        ],
+        "blockers": [
+          "Buscas combinadas retornaram preços acima do teto ou nenhum resultado verificável",
+          "Revalidação histórica parcial; nenhum cupom adicional confirmado"
+        ]
+      }
     }
   ]
 }
