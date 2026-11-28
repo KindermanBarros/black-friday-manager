@@ -1777,6 +1777,87 @@
           "Nenhum cupom adicional confirmado"
         ]
       }
+    },
+    {
+      "at": "2026-11-28T00:38:53-04:00",
+      "offers": [
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "eligible": false,
+          "inStock": false,
+          "stockStatus": "unavailable",
+          "store": "TerabyteShop",
+          "title": "Captain 500GB",
+          "price": 7819.99,
+          "url": "https://terabyteshop.com.br/produto/44633/pc-gamer-captain-amd-ryzen-7-5700x-nvidia-geforce-rtx-5060-16gb-ddr4-2x8gb-ssd-500gb-nvme",
+          "ssdGB": 500,
+          "payment": "Pix ou boleto 15%",
+          "installments": "12x R$ 766,67 sem juros",
+          "reason": "indisponibilidade confirmada"
+        },
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "vramGB": 8,
+          "eligible": false,
+          "inStock": false,
+          "stockStatus": "unavailable",
+          "store": "TerabyteShop",
+          "title": "Captain 256GB",
+          "price": 9225.76,
+          "url": "https://terabyteshop.com.br/produto/39342/pc-gamer-captain-amd-ryzen-7-5700x-nvidia-geforce-rtx-5060-16gb-ddr4-2x8gb-ssd-256gb-nvme",
+          "ssdGB": 256,
+          "payment": "Pix ou boleto 15%",
+          "installments": "12x R$ 904,49 sem juros",
+          "reason": "indisponibilidade confirmada"
+        }
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "Amazon Brasil",
+          "Carrefour",
+          "Casas Bahia",
+          "Fast Shop",
+          "KaBuM!",
+          "Magalu",
+          "Mercado Livre",
+          "Pichau",
+          "Ponto",
+          "Shopee",
+          "TerabyteShop"
+        ],
+        "blockers": [
+          "Amazon Brasil: no unique product structured data",
+          "Carrefour: search HTTPError",
+          "Casas Bahia: search HTTPError",
+          "Fast Shop: search HTTPError",
+          "KaBuM!: new condition not confirmed",
+          "KaBuM!: no unique product structured data",
+          "Magalu: ValueError",
+          "Magalu: search HTTPError",
+          "Mercado Livre: no direct product links discovered",
+          "Mercado Livre: no unique product structured data",
+          "Pichau: HTTPError HTTP 403",
+          "Pichau: search HTTPError",
+          "Ponto: search HTTPError",
+          "Radar Ofertas: no direct retailer links extracted",
+          "Shopee: no direct product links discovered",
+          "TerabyteShop: aggregate price does not identify seller",
+          "TerabyteShop: seller not confirmed"
+        ],
+        "targetMet": false,
+        "newLinks": 0,
+        "changedPrices": 0,
+        "unchangedPrices": 0
+      }
     }
   ]
 }
