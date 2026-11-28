@@ -2274,6 +2274,69 @@
         "changedPrices": 0,
         "unchangedPrices": 0
       }
+    },
+    {
+      "at": "2026-11-28T15:02:33.665Z",
+      "offers": [
+        {
+          "store": "REDMAGIC Brasil",
+          "title": "REDMAGIC 11 Air Phantom 12GB+256GB",
+          "brand": "REDMAGIC",
+          "model": "11 Air",
+          "price": 3799,
+          "url": "https://br.redmagic.gg/products/redmagic-11-air",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Esgotado",
+          "ramGB": 12,
+          "storageGB": 256,
+          "chipset": "Snapdragon 8 Elite",
+          "shipping": "Frete grátis anunciado; Manaus não confirmado"
+        },
+        {
+          "store": "iLoja",
+          "title": "Xiaomi POCO F8 Pro 5G Prata 256GB",
+          "brand": "Xiaomi",
+          "model": "POCO F8 Pro",
+          "price": 3890.17,
+          "url": "https://ilojabr.com.br/products/xiaomi-poco-f8-pro-5g",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Indisponível",
+          "ramGB": 12,
+          "storageGB": 256,
+          "payment": "Pix",
+          "warranty": "3 meses",
+          "shipping": "Frete grátis anunciado",
+          "installments": "18x R$ 296,06",
+          "coupon": "BLACK50: R$ 50 acima de R$ 1.000; aplicação e validade não confirmadas; preço hipotético R$ 3.840,17"
+        }
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "REDMAGIC Brasil",
+          "iLoja",
+          "Carrefour",
+          "Vivo",
+          "Motorola",
+          "Amazon Brasil",
+          "Mercado Livre",
+          "Shopee",
+          "KaBuM!",
+          "Magalu"
+        ],
+        "blockers": [
+          "Dois anúncios individuais abaixo do teto indisponíveis",
+          "Resultados agregados sem confirmação individual de estoque ou preço",
+          "Frete específico para Manaus e aplicação de cupons não confirmados",
+          "OnePlus 15 acima do teto em páginas indexadas antigas"
+        ],
+        "targetMet": false
+      }
     }
   ]
 }
