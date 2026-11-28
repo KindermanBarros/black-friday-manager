@@ -2447,6 +2447,63 @@
         "changedPrices": 0,
         "unchangedPrices": 0
       }
+    },
+    {
+      "at": "2026-11-28T11:00:36-04:00",
+      "offers": [
+        {
+          "store": "Nova Era Games",
+          "price": 3699.9,
+          "games": [],
+          "url": "https://lojanovaera.com/nintendo-switch-2-modelo-importado",
+          "inStock": true,
+          "payment": "Pix",
+          "coupon": "",
+          "seller": "Nova Era Games",
+          "shipping": null,
+          "installments": null
+        },
+        {
+          "store": "Nova Era Games",
+          "price": 3899.9,
+          "games": [
+            "Mario Kart World"
+          ],
+          "url": "https://lojanovaera.com/nintendo-switch-2-com-mario-kart-world-modelo-nacional",
+          "inStock": true,
+          "payment": "Pix",
+          "coupon": "",
+          "seller": "Nova Era Games",
+          "shipping": null,
+          "installments": null
+        }
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 2,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "Amazon Brasil",
+          "Shopee",
+          "Mercado Livre",
+          "KaBuM!",
+          "Magalu",
+          "Casas Bahia",
+          "Ponto",
+          "Carrefour",
+          "Fast Shop",
+          "Nova Era Games"
+        ],
+        "blockers": [
+          "Resultados de Amazon e Carrefour com capturas antigas; demais buscas sem evidência contemporânea suficiente",
+          "Quatro URLs históricas sem www inacessíveis; revalidação integral e buscas internas não concluídas",
+          "Cupons não validados"
+        ],
+        "newLinks": 0,
+        "changedPrices": 0,
+        "unchangedPrices": 2
+      }
     }
   ]
 }
