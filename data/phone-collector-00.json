@@ -2171,6 +2171,63 @@
         "Galaxy S23 Ultra Magalu R$3959,10 em indexação do mês anterior; estoque atual não confirmado.",
         "Resultados agregados sem validação individual ou acima do teto; cobertura parcial. Frete Manaus e impostos finais não confirmados."
       ]
+    },
+    {
+      "at": "2026-11-28T14:00:20.857Z",
+      "offers": [
+        {
+          "store": "REDMAGIC Brasil",
+          "title": "REDMAGIC 11 Air 12GB 256GB",
+          "brand": "REDMAGIC",
+          "model": "11 Air",
+          "price": 3799,
+          "url": "https://br.redmagic.gg/products/redmagic-11-air",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Esgotado; impostos finais não confirmados.",
+          "ramGB": 12,
+          "storageGB": 256,
+          "chipset": "Snapdragon 8 Elite"
+        },
+        {
+          "store": "iLoja",
+          "title": "Xiaomi POCO F8 Pro 5G 256GB",
+          "brand": "Xiaomi",
+          "model": "POCO F8 Pro",
+          "price": 3890.17,
+          "url": "https://ilojabr.com.br/products/xiaomi-poco-f8-pro-5g",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Indisponível",
+          "ramGB": 12,
+          "storageGB": 256,
+          "payment": "Pix",
+          "warranty": "3 meses",
+          "installments": "18x R$296,06 sem juros",
+          "coupon": "BLACK50: R$50 acima de R$1000; validade e cumulatividade não confirmadas; hipotético R$3840,17"
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "REDMAGIC Brasil",
+        "iLoja",
+        "Mercado Livre",
+        "Amazon Brasil (consulta agregada)",
+        "Shopee (consulta agregada)",
+        "KaBuM! (consulta agregada)",
+        "Magalu (consulta agregada)",
+        "Vivo (consulta agregada)",
+        "Americanas (consulta agregada)",
+        "Pontofrio (consulta agregada)"
+      ],
+      "blockers": [
+        "Dois anúncios individuais indisponíveis; preços inalterados.",
+        "Resultados agregados sem confirmação individual de condição, estoque e preço à vista; cobertura parcial.",
+        "Frete para Manaus e impostos finais não confirmados."
+      ]
     }
   ]
 }
