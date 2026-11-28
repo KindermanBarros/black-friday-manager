@@ -1411,6 +1411,83 @@
           "Frete Manaus, impostos finais e validade/cumulatividade do cupom não confirmados."
         ]
       }
+    },
+    {
+      "at": "2026-11-28T00:58:32.442Z",
+      "offers": [
+        {
+          "store": "REDMAGIC Brasil",
+          "title": "REDMAGIC 11 Air Phantom 12GB+256GB",
+          "brand": "REDMAGIC",
+          "model": "11 Air",
+          "price": 3799,
+          "url": "https://br.redmagic.gg/products/redmagic-11-air",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Esgotado; impostos calculados no checkout.",
+          "ramGB": 12,
+          "storageGB": 256,
+          "chipset": "Snapdragon 8 Elite"
+        },
+        {
+          "store": "iLoja",
+          "title": "Xiaomi POCO F8 Pro 5G Prata 256GB",
+          "brand": "Xiaomi",
+          "model": "POCO F8 Pro",
+          "price": 3890.17,
+          "url": "https://ilojabr.com.br/products/xiaomi-poco-f8-pro-5g",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Indisponível na página individual.",
+          "ramGB": 12,
+          "storageGB": 256,
+          "payment": "Pix",
+          "warranty": "3 meses",
+          "installments": "18x R$296,06 sem juros",
+          "coupon": "BLACK50: R$50 a partir de R$1000; validade e cumulatividade não confirmadas; hipotético R$3840,17",
+          "shipping": "Frete grátis anunciado; prazo Manaus não confirmado"
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "REDMAGIC Brasil",
+        "iLoja",
+        "Magalu",
+        "KaBuM!",
+        "Amazon Brasil (consulta)",
+        "Shopee (consulta)",
+        "Mercado Livre (consulta)",
+        "Intec Store"
+      ],
+      "blockers": [
+        "REDMAGIC 11 Air e POCO F8 Pro indisponíveis nas páginas individuais.",
+        "Galaxy S23 Ultra Magalu com preço indexado há um mês; estoque atual não confirmado.",
+        "Resultados restantes acima do teto ou sem validação individual; cobertura parcial. Frete Manaus e cupons não confirmados."
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "REDMAGIC Brasil",
+          "iLoja",
+          "Magalu",
+          "KaBuM!",
+          "Amazon Brasil (consulta)",
+          "Shopee (consulta)",
+          "Mercado Livre (consulta)",
+          "Intec Store"
+        ],
+        "blockers": [
+          "REDMAGIC 11 Air e POCO F8 Pro indisponíveis nas páginas individuais.",
+          "Galaxy S23 Ultra Magalu com preço indexado há um mês; estoque atual não confirmado.",
+          "Resultados restantes acima do teto ou sem validação individual; cobertura parcial. Frete Manaus e cupons não confirmados."
+        ]
+      }
     }
   ]
 }
