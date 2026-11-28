@@ -1958,6 +1958,72 @@
           "Revalidação histórica parcial"
         ]
       }
+    },
+    {
+      "at": "2026-11-28T06:56:00.542Z",
+      "offers": [
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "eligible": false,
+          "store": "Pichau",
+          "title": "PC Gamer Pichau 65947",
+          "price": 6199.99,
+          "url": "https://pichau.com.br/pc-gamer-pichau-amd-ryzen-7-5700x-geforce-rtx-5060-8gb-16gb-ddr4-ssd-480gb-65947",
+          "ssdGB": 480,
+          "vramGB": 8,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "reason": "Acima do teto; 66 unidades anunciadas contradizem indicação de indisponibilidade.",
+          "seller": "Pichau",
+          "payment": "Pix 15%",
+          "installments": "12x R$ 607,84 sem juros",
+          "motherboard": "A520M",
+          "psu": "500 W",
+          "warranty": "Por componente",
+          "shipping": "Frete grátis Sul e Sudeste"
+        },
+        {
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "eligible": false,
+          "store": "TerabyteShop",
+          "title": "PC Gamer Captain 39342",
+          "price": 6299.99,
+          "url": "https://terabyteshop.com.br/produto/39342/pc-gamer-captain-amd-ryzen-7-5700x-nvidia-geforce-rtx-5060-16gb-ddr4-2x8gb-ssd-256gb-nvme",
+          "ssdGB": 256,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "reason": "Acima do teto; estoque atual não confirmado integralmente.",
+          "payment": "Pix ou boleto 15% (anúncio indexado)",
+          "warranty": "12 meses"
+        }
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "Pichau",
+          "TerabyteShop",
+          "KaBuM!",
+          "Amazon Brasil",
+          "Mercado Livre",
+          "Shopee",
+          "Magalu",
+          "Alligator Shop",
+          "Setup Ninja"
+        ],
+        "blockers": [
+          "Pichau acima do teto e estoque contraditório",
+          "Demais resultados acima do teto ou sem validação individual suficiente",
+          "Revalidação histórica parcial",
+          "Nenhum cupom adicional confirmado"
+        ]
+      }
     }
   ]
 }
