@@ -2360,6 +2360,55 @@
           "Resultados comerciais internacionais ou incompatíveis; revalidação histórica parcial; nenhum cupom confirmado"
         ]
       }
+    },
+    {
+      "at": "2026-11-28T17:32:04-00:00",
+      "offers": [
+        {
+          "store": "Pichau",
+          "title": "PC Gamer Pichau 65947",
+          "price": 6199.99,
+          "url": "https://pichau.com.br/pc-gamer-pichau-amd-ryzen-7-5700x-geforce-rtx-5060-8gb-16gb-ddr4-ssd-480gb-65947",
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "ssdGB": 480,
+          "vramGB": 8,
+          "inStock": false,
+          "stockStatus": "uncertain",
+          "eligible": false,
+          "reason": "Acima do teto; 60 disponíveis mas página indica esgotado",
+          "seller": "Pichau",
+          "payment": "Pix 15%",
+          "shipping": "Frete grátis Sul e Sudeste",
+          "installments": "12x R$ 607,84 sem juros",
+          "motherboard": "A520M",
+          "psu": "500 W",
+          "warranty": "Por componente"
+        }
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "Pichau",
+          "TerabyteShop",
+          "KaBuM!",
+          "Amazon Brasil",
+          "Mercado Livre",
+          "Shopee",
+          "Magalu",
+          "Xtreme Informática"
+        ],
+        "blockers": [
+          "Pichau acima do teto e estoque contraditório; Afrodite inacessível",
+          "Resultados Mercado Livre e Xtreme acima do teto",
+          "Busca combinada demais lojas sem confirmação; resultados comerciais internacionais",
+          "Revalidação histórica parcial; nenhum cupom confirmado"
+        ]
+      }
     }
   ]
 }
