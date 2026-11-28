@@ -2487,6 +2487,85 @@
         "Busca agregada retornou produtos irrelevantes; cobertura parcial, sem validação de Amazon, KaBuM! e Magalu.",
         "Frete específico Manaus, impostos e cupom não confirmados."
       ]
+    },
+    {
+      "at": "2026-11-28T18:58:03.755Z",
+      "offers": [
+        {
+          "store": "REDMAGIC Brasil",
+          "title": "REDMAGIC 11 Air Phantom 12GB+256GB",
+          "brand": "REDMAGIC",
+          "model": "11 Air",
+          "price": 3799,
+          "url": "https://br.redmagic.gg/products/redmagic-11-air",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Esgotado",
+          "ramGB": 12,
+          "storageGB": 256,
+          "chipset": "Snapdragon 8 Elite",
+          "shipping": "Frete grátis anunciado; Manaus não confirmado"
+        },
+        {
+          "store": "iLoja",
+          "title": "Xiaomi POCO F8 Pro 5G Prata 256GB",
+          "brand": "Xiaomi",
+          "model": "POCO F8 Pro",
+          "price": 3890.17,
+          "url": "https://ilojabr.com.br/products/xiaomi-poco-f8-pro-5g",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Indisponível",
+          "ramGB": 12,
+          "storageGB": 256,
+          "chipset": "Snapdragon 8 Elite",
+          "payment": "Pix",
+          "warranty": "3 meses",
+          "shipping": "Frete grátis anunciado",
+          "installments": "18x R$ 296,06 sem juros",
+          "coupon": "BLACK50: R$50 acima de R$1000; validade e cumulatividade não confirmadas; hipotético R$3840,17"
+        }
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "REDMAGIC Brasil",
+          "iLoja",
+          "Mercado Livre",
+          "Amazon Brasil",
+          "Shopee",
+          "KaBuM!",
+          "Magalu",
+          "eBay"
+        ],
+        "blockers": [
+          "Dois anúncios individuais indisponíveis.",
+          "Consultas agregadas retornaram intermediários, importações com impostos desconhecidos e resultados irrelevantes; cobertura parcial.",
+          "Sem confirmação individual de estoque nas demais lojas; frete Manaus e cupons não confirmados."
+        ]
+      },
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "REDMAGIC Brasil",
+        "iLoja",
+        "Mercado Livre",
+        "Amazon Brasil",
+        "Shopee",
+        "KaBuM!",
+        "Magalu",
+        "eBay"
+      ],
+      "blockers": [
+        "Dois anúncios individuais indisponíveis.",
+        "Consultas agregadas retornaram intermediários, importações com impostos desconhecidos e resultados irrelevantes; cobertura parcial.",
+        "Sem confirmação individual de estoque nas demais lojas; frete Manaus e cupons não confirmados."
+      ]
     }
   ]
 }
