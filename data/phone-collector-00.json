@@ -1565,6 +1565,52 @@
           "Busca agregada retornou intermediários, usados e preços acima do teto; cobertura parcial. Frete Manaus, impostos e cupons não confirmados."
         ]
       }
+    },
+    {
+      "at": "2026-11-28T00:38:51-04:00",
+      "offers": [],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "Amazon Brasil",
+          "Carrefour",
+          "Casas Bahia",
+          "Fast Shop",
+          "KaBuM!",
+          "Magalu",
+          "Mercado Livre",
+          "Motorola",
+          "Ponto",
+          "Samsung",
+          "Shopee"
+        ],
+        "blockers": [
+          "Amazon Brasil: no unique product structured data",
+          "Amazon Brasil: search HTTPError",
+          "Carrefour: search HTTPError",
+          "Casas Bahia: search HTTPError",
+          "Fast Shop: search HTTPError",
+          "KaBuM!: no direct product links discovered",
+          "KaBuM!: no unique product structured data",
+          "Magalu: ValueError",
+          "Magalu: search HTTPError",
+          "Mercado Livre: no direct product links discovered",
+          "Mercado Livre: no unique product structured data",
+          "Motorola: aggregate price does not identify seller",
+          "Motorola: no unique product structured data",
+          "Ponto: search HTTPError",
+          "Radar Ofertas: no direct retailer links extracted",
+          "Samsung: no unique product structured data",
+          "Shopee: no direct product links discovered"
+        ],
+        "targetMet": false,
+        "newLinks": 0,
+        "changedPrices": 0,
+        "unchangedPrices": 0
+      }
     }
   ]
 }
