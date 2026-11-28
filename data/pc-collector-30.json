@@ -2409,6 +2409,49 @@
           "Revalidação histórica parcial; nenhum cupom confirmado"
         ]
       }
+    },
+    {
+      "at": "2026-11-28T19:30:57.517Z",
+      "offers": [
+        {
+          "store": "Magalu",
+          "title": "BluePC Ludic PGBP-1217LUD",
+          "price": 5787.3,
+          "url": "https://magazineluiza.com.br/pc-gamer-ludic-by-bluepc-amd-ryzen-7-5700x-geforce-rtx-5060-8gb-gddr7-16gb-ddr4-ssd-512gb-m-2-nvme-fonte-600w-80-plus-pgbp-1217lud/p/hhac1786hf/in/pcgm",
+          "cpu": "AMD Ryzen 7 5700X",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "ramGB": 16,
+          "ssdGB": 512,
+          "vramGB": 8,
+          "psu": "600 W 80 Plus",
+          "inStock": true,
+          "stockStatus": "confirmed",
+          "eligible": false,
+          "reason": "Compra disponível, mas envio pré-montado não confirmado",
+          "seller": "2Eletro",
+          "payment": "Pix 20% desconto",
+          "installments": "10x R$ 723,41 sem juros"
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "Pichau",
+        "TerabyteShop",
+        "KaBuM!",
+        "Amazon Brasil",
+        "Mercado Livre",
+        "Shopee",
+        "Magalu",
+        "Setup Ninja",
+        "Infoturbo"
+      ],
+      "blockers": [
+        "Montagem do BluePC não confirmada; demais resultados indexados acima do teto ou sem validação atual.",
+        "Revalidação histórica parcial; nenhum cupom adicional confirmado."
+      ]
     }
   ]
 }
