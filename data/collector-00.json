@@ -1649,6 +1649,37 @@
         "changedPrices": 0,
         "unchangedPrices": 5
       }
+    },
+    {
+      "at": "2026-11-28T01:00:04.464Z",
+      "offers": [],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "Amazon Brasil",
+          "Shopee",
+          "Mercado Livre",
+          "KaBuM!",
+          "Magalu",
+          "Casas Bahia",
+          "Ponto",
+          "Carrefour",
+          "Fast Shop",
+          "Nova Era Games"
+        ],
+        "blockers": [
+          "Cinco URLs Nova Era inacessíveis",
+          "KaBuM: divergência entre catálogo e página individual",
+          "Demais resultados agregados ou antigos sem validação individual suficiente",
+          "Revalidação histórica e pesquisa complementar incompletas"
+        ],
+        "newLinks": 0,
+        "changedPrices": 0,
+        "unchangedPrices": 0
+      }
     }
   ]
 }
