@@ -1985,6 +1985,81 @@
           "Consultas ampliadas retornaram sobretudo intermediários ou preços acima do teto; cobertura parcial. Frete Manaus, impostos e cupons não confirmados."
         ]
       }
+    },
+    {
+      "at": "2026-11-28T11:03:22.642Z",
+      "offers": [
+        {
+          "store": "REDMAGIC Brasil",
+          "title": "REDMAGIC 11 Air Phantom 12GB+256GB",
+          "brand": "REDMAGIC",
+          "model": "11 Air",
+          "price": 3799,
+          "url": "https://br.redmagic.gg/products/redmagic-11-air",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Esgotado; impostos calculados no checkout",
+          "ramGB": 12,
+          "storageGB": 256,
+          "chipset": "Snapdragon 8 Elite",
+          "shipping": "Frete grátis anunciado"
+        },
+        {
+          "store": "iLoja",
+          "title": "Xiaomi POCO F8 Pro 5G Prata 256GB",
+          "brand": "Xiaomi",
+          "model": "POCO F8 Pro",
+          "price": 3890.17,
+          "url": "https://ilojabr.com.br/products/xiaomi-poco-f8-pro-5g",
+          "inStock": false,
+          "eligible": false,
+          "reason": "Indisponível; condição novo não explicitada",
+          "ramGB": 12,
+          "storageGB": 256,
+          "payment": "Pix",
+          "seller": "iLoja",
+          "warranty": "3 meses",
+          "shipping": "Frete grátis anunciado",
+          "installments": "18x R$ 296,06 sem juros",
+          "coupon": "BLACK50: R$50 a partir de R$1000; validade e cumulatividade não confirmadas; hipotético R$3840,17"
+        }
+      ],
+      "status": "below_minimum",
+      "eligibleCount": 0,
+      "target": 20,
+      "minimum": 10,
+      "storesSearched": [
+        "REDMAGIC Brasil",
+        "iLoja",
+        "Mercado Livre",
+        "Shopee (agregador)",
+        "Amazon Brasil (notícia)",
+        "KaBuM! (consulta)",
+        "Magalu (consulta)"
+      ],
+      "blockers": [
+        "Dois anúncios individuais indisponíveis; Galaxy S23 Ultra e Xiaomi 15T Pro na Shopee apenas em agregador, sem confirmação individual.",
+        "Cobertura parcial; frete Manaus, impostos e aplicação de cupons não confirmados."
+      ],
+      "metadata": {
+        "status": "below_minimum",
+        "eligibleCount": 0,
+        "target": 20,
+        "minimum": 10,
+        "storesSearched": [
+          "REDMAGIC Brasil",
+          "iLoja",
+          "Mercado Livre",
+          "Shopee (agregador)",
+          "Amazon Brasil (notícia)",
+          "KaBuM! (consulta)",
+          "Magalu (consulta)"
+        ],
+        "blockers": [
+          "Dois anúncios individuais indisponíveis; Galaxy S23 Ultra e Xiaomi 15T Pro na Shopee apenas em agregador, sem confirmação individual.",
+          "Cobertura parcial; frete Manaus, impostos e aplicação de cupons não confirmados."
+        ]
+      }
     }
   ]
 }
